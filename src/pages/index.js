@@ -27,7 +27,8 @@ const IndexPage = () => (
         { heading: "Languages", content: "C#, Typescript, Javascript, HTML5, CSS/SASS/LESS, SQL" },
         { heading: "Frameworks", content: "React, .NET (MVC, Core, Webforms), Electron" },
         { heading: "Tools", content: "Visual Studio, Webpack, npm" },
-        { heading: "Servers and Cloud Platforms", content: "Microsoft Azure, Amazon EC2, Windows Server (2008R2 and 2012)" },
+        { heading: "Servers and Cloud Platforms", content: "Microsoft Azure, Amazon EC2, Windows Server (2016, 2012, 2008R2)" },
+        { heading: "Architecture", content: "SOLID principles, Inversion of Control" },
       ]}
     />
     {/* Professional Experience */}
