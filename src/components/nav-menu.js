@@ -1,9 +1,13 @@
 import React from 'react'
+import Link from "gatsby-link";
 import Mailto from 'react-mailto'
 
 const NavMenu = () => {
     return (
         <ul className='nav nav-list'>
+            <li>
+                <Link to="/blog/">Blog</Link>
+            </li>
             <li>
                 <a href="https://drive.google.com/file/d/1moeEaIOTmg1Px24PzDX6Tj-EM41aOSzi/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <span><span className='glyphicon glyphicon-list-alt'></span>Resume</span>

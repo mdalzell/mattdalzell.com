@@ -1,2 +1,2 @@
 # mattdalzell.com
-My personal site, written using Gatsby
+My personal site, built using Gatsby and React
