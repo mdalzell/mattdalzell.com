@@ -619,4 +619,10 @@ pre tt:after {
   background-color: black;
   border: solid cornflowerblue;
   padding: 15px;
+  position: sticky;
+  top: 28px;
+}
+
+.tag {
+  margin: 0 15px 15px 0;
 }

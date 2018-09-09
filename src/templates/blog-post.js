@@ -7,6 +7,12 @@ const BlogPost = ({ data }) => {
         <div>
             <h1>{post.frontmatter.title}</h1>
             <h4>{post.frontmatter.date}</h4>
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <p>
+              {post.frontmatter.tags.map((tag) => (
+                <a className="tag">{"#" + tag}</a>
+              ))}
+            </p>
             <Link to="/blog">Return to Blog</Link>
         </div>
     );
@@ -18,6 +24,7 @@ export const query = graphql`
       html
       frontmatter {
         date(formatString: "DD MMMM, YYYY")
+        tags
         title
       }
     }

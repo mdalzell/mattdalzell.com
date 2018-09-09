@@ -7,7 +7,7 @@ const BlogPage = ({ data }) => (
         <ul>
           {data.allMarkdownRemark.edges.map(({ node }) => (
               <li key={node.id}>
-                  <Link to={node.fields.slug}>{node.frontmatter.title + " - " + node.frontmatter.date}</Link>
+                  <Link to={"/blog" + node.fields.slug}>{node.frontmatter.title + " - " + node.frontmatter.date}</Link>
               </li>
           ))}
         </ul>

@@ -6,6 +6,9 @@ const NavMenu = () => {
     return (
         <ul className='nav nav-list'>
             <li>
+                <Link to="/">Home</Link>
+            </li>
+            <li>
                 <Link to="/blog/">Blog</Link>
             </li>
             <li>
