@@ -17,7 +17,7 @@ const NavMenu = () => {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/IsThatQueeblo" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mdalzell" target="_blank" rel="noopener noreferrer">
                     <span><span className='glyphicon glyphicon-wrench'></span>Github</span>
                 </a>
             </li>
