@@ -15,7 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <div className="container-fluid">
+    <div className='container-fluid'>
       <div className='row'>
         <div className='col-sm-3'>
           <NavMenu />
@@ -24,6 +24,9 @@ const Layout = ({ children, data }) => (
           {children()}
         </div>
       </div>
+    </div>
+    <div className='footer'>
+      &copy; {new Date().getFullYear()} Matt Dalzell
     </div>
   </div>
 )
