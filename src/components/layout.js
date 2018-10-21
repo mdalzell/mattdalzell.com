@@ -10,7 +10,14 @@ import '../styles/index.css'
 const Layout = ({ children }) => (
   <div>
     <StaticQuery
-      query={query}
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
+          }
+        }`}
       render={(data) => 
         <Helmet
           title={data.site.siteMetadata.title}
@@ -42,13 +49,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
