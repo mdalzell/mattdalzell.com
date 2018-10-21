@@ -2,18 +2,24 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import NavMenu from '../components/nav-menu'
+import { StaticQuery, graphql } from 'gatsby'
 
-import './bootstrap-grid.min.css';
-import './index.css'
+import '../styles/bootstrap-grid.min.css';
+import '../styles/index.css'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
+    <StaticQuery
+      query={query}
+      render={(data) => 
+        <Helmet
+          title={data.site.siteMetadata.title}
+          meta={[
+            { name: 'description', content: 'Matt Dalzell is a software engineer based out of Chicago, IL.' },
+            { name: 'keywords', content: 'Matt Dalzell, software engineer, blog' },
+          ]}
+        />
+      }
     />
     <div className='container-fluid'>
       <div className='row'>
@@ -21,7 +27,7 @@ const Layout = ({ children, data }) => (
           <NavMenu />
         </div>
         <div className='col-sm-9'>
-          {children()}
+          {children}
         </div>
       </div>
     </div>
@@ -32,7 +38,7 @@ const Layout = ({ children, data }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.element
 }
 
 export default Layout

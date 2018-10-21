@@ -1,9 +1,11 @@
 import React from "react";
-import Link from "gatsby-link";
+import { Link, graphql } from "gatsby";
+import Layout from '../components/layout'
 
 const BlogPost = ({ data }) => {
     const post = data.markdownRemark;
     return ( 
+      <Layout>
         <div>
             <h1>{post.frontmatter.title}</h1>
             <h4>{post.frontmatter.date}</h4>
@@ -15,6 +17,7 @@ const BlogPost = ({ data }) => {
             </p>
             <Link to="/blog">Return to Blog</Link>
         </div>
+      </Layout>
     );
 };
 

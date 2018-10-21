@@ -1,6 +1,6 @@
 import React from 'react'
-import Link from "gatsby-link";
-import Mailto from 'react-mailto'
+import { Link } from "gatsby";
+//import Mailto from 'react-mailto'
 
 const NavMenu = () => {
     return (
@@ -26,11 +26,13 @@ const NavMenu = () => {
                     <span><span className='glyphicon glyphicon-console'></span>Stack Overflow</span>
                 </a>
             </li>
+            {/*
             <li>
                 <Mailto email="&#109;&#097;&#116;&#116;&#046;&#097;&#046;&#100;&#097;&#108;&#122;&#101;&#108;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" obfuscate>
                     <span><span className='glyphicon glyphicon-envelope'></span>Email</span>
                 </Mailto>
             </li>
+            */}
         </ul>
     );
 }
