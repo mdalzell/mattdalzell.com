@@ -7,7 +7,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import '../styles/bootstrap-grid.min.css';
 import '../styles/index.css'
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   <div>
     <StaticQuery
       query={query}
