@@ -11,6 +11,9 @@ const BlogPost = ({ data }) => {
             <h4>{post.frontmatter.date}</h4>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <p>
+              ~ MAD
+            </p>
+            <p>
               {post.frontmatter.tags.map((tag) => (
                 <a className="tag">{"#" + tag}</a>
               ))}

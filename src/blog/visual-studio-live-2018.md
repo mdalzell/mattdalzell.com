@@ -10,5 +10,3 @@ One trend I noticed from the various sessions is how we are converging upon a po
 The sessions were beneficial, but the best aspect of the conference was the opportunity to converse with other developers and even the session speakers.  We often get caught up in our own ways, and it's hard to break outside of that bubble.  Getting exposure to other ideas is always beneficial, even if you don't necessarily agree with it (don't get me started on C# 8's default methods for interfaces).
 
 Overall, I'd say the conference was well worth my employer's money.
-
-~ MAD

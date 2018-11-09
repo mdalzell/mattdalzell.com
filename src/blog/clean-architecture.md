@@ -13,5 +13,3 @@ In typical Uncle Bob fashion, *Clean Architecture* is a fairly quick read from f
 Ultimately, I feel like there was one main takeaway: all parts of a system should be as loosely coupled as reasonably possible.  Whether you are opting for a monolith, microservices, or anything in-between, make sure that architectural boundaries are crossed in one direction to minimize the impact of future changes to the code.  Nobody likes having to change the data access layer because of a UI change. 
 
 Unlike *Clean Code*, where I felt I walked away with a greater sense of specific actions I can take to improve my code, *Clean Architecture* left me with a more ambiguous sense of direction and a looser set of guidelines.  Given the nature of software architecture, perhaps that was the point.  
-
-~ MAD
