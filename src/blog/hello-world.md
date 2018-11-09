@@ -13,5 +13,3 @@ That's why my latest build uses Gatsby.js, a static site generator.  Don't get t
 While working on this, I've grown pretty fond of the intuitiveness of the JAMstack philosophy.  This simplicity seems more in tune with the original TBL vision of the internet, which unfortunately I feel the web developer community often strays away from.  Not to mention the performance is blazing fast and the hosting costs are inexpensive (read: free).
 
 My goal moving forward to is to publish a new post about every week or so, with topics focusing mostly on software development.  Hopefully I'm able to check my laziness enough to stick to that routine.
-
-~ MAD
