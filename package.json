@@ -7,6 +7,7 @@
     "gatsby": "^2.0.28",
     "gatsby-link": "^2.0.4",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-typescript": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.5",
     "gatsby-transformer-remark": "^2.1.8",
     "react": "^16.5.2",

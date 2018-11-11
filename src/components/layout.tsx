@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import NavMenu from '../components/nav-menu'
+import NavMenu from './nav-menu'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../styles/bootstrap-grid.min.css';

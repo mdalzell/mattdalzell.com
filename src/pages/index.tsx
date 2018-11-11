@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutMeSection from '../components/about-me-section.js'
+import AboutMeSection from '../components/about-me-section'
 import Layout from '../components/layout'
 
 const yearsOfExperience = new Date().getFullYear() - 2012; // I started way back in 2012, I'm ancient
