@@ -6,7 +6,7 @@ const BlogPage = ({ data }) => (
   <Layout>
     <div>
         <h1>Blog</h1>
-        <ul>
+        <ul className="no-list-style">
           {data.allMarkdownRemark.edges.map(({ node }) => (
               <li key={node.id}>
                   <Link to={"/blog" + node.fields.slug}>{node.frontmatter.title + " - " + node.frontmatter.date}</Link>
