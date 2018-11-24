@@ -45,8 +45,7 @@ const IndexPage = () => (
         <AboutMeSection
           sectionTitle="Education"
           subsections={[
-            { heading: "Northwestern University - Evanston, IL", content: "B.S. in Computer Science - Class of 2013" },
-            { heading: "St. Laurence High School - Burbank, IL", content: "Valedictorian - Class of 2009" }
+            { heading: "Northwestern University - Evanston, IL", content: "B.S. in Computer Science - Class of 2013" }
           ]}
         />
         {/* Other Honors */}
