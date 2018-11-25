@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from "gatsby";
+import { Link } from 'gatsby';
+import Resume from '../files/resume.pdf';
 
 const NavMenu = () => {
     return (
@@ -11,7 +12,7 @@ const NavMenu = () => {
                 <Link to="/blog/">Blog</Link>
             </li>
             <li>
-                <a href="https://drive.google.com/file/d/1moeEaIOTmg1Px24PzDX6Tj-EM41aOSzi/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
                     <span><span className='glyphicon glyphicon-list-alt'></span>Resume</span>
                 </a>
             </li>
