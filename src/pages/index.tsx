@@ -14,7 +14,7 @@ const IndexPage = () => (
       <p>
         I am a software engineer based out of Chicago, IL, with {yearsOfExperience} years of professional experience in both frontend and
         backend web application development.  My background primarily lies within the Microsoft stack (C#/.NET/SQL Server) and
-        various javascript frameworks, most recently React.  Over the course of my career, I've worked on everything from large SaaS applications to smaller
+        various JavaScript frameworks, most recently React.  Over the course of my career, I've worked on everything from large SaaS applications to smaller
         web apps for businesses across a wide variety of industries.
       </p>
       <p>
@@ -26,7 +26,7 @@ const IndexPage = () => (
       <AboutMeSection 
         sectionTitle="Technical Proficiencies"
         subsections={[
-          { heading: "Languages", content: "C#, Typescript, Javascript, HTML5, CSS/SASS/LESS, SQL" },
+          { heading: "Languages", content: "C#, TypeScript, JavaScript, HTML5, CSS/SASS/LESS, SQL" },
           { heading: "Frameworks", content: "React, .NET (MVC, Core, Webforms), Electron" },
           { heading: "Tools", content: "Visual Studio, Webpack, npm" },
           { heading: "Servers and Cloud Platforms", content: "Microsoft Azure, Amazon EC2, Windows Server (2016, 2012, 2008R2)" }
