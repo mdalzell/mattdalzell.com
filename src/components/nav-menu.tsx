@@ -9,7 +9,7 @@ const NavMenu = () => {
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="/blog/">Blog</Link>
+                <Link to="/blog">Blog</Link>
             </li>
             <li>
                 <a href={Resume} target="_blank" rel="noopener noreferrer">

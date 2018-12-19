@@ -15,7 +15,7 @@ const BlogPost = ({ data }) => {
             </p>
             <p>
               {post.frontmatter.tags.map((tag) => (
-                <a className="tag">{"#" + tag}</a>
+                <Link to={"/blog?tag=" + tag} className="tag">{"#" + tag}</Link>
               ))}
             </p>
             <Link to="/blog">Return to Blog</Link>
