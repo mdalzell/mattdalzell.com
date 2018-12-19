@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from "gatsby";
-import Layout from '../components/layout'
+import Layout from '../components/layout';
+import URLSearchParams from '@ungap/url-search-params';
 
 interface IBlogPageProps{
   data: { 
@@ -8,13 +9,14 @@ interface IBlogPageProps{
       edges,
       group
     }
-  };
+  },
+  location
 }
 
 class BlogPage extends React.Component<IBlogPageProps> {
 
   render() {
-    const urlParams = new URLSearchParams(window.location.search);
+    const urlParams = new URLSearchParams(this.props.location.search);
     const tag = urlParams.get('tag');
 
     return (

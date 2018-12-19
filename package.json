@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Matt Dalzell",
   "dependencies": {
+    "@ungap/url-search-params": "^0.1.2",
     "gatsby": "^2.0.28",
     "gatsby-link": "^2.0.4",
     "gatsby-plugin-react-helmet": "^3.0.0",
