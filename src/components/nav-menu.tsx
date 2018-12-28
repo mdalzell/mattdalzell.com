@@ -26,6 +26,9 @@ const NavMenu = () => {
                     <span><span className='glyphicon glyphicon-console'></span>Stack Overflow</span>
                 </a>
             </li>
+            <li>
+                <a href="mailto:matt.a.dalzell@gmail.com">Email</a>
+            </li>
         </ul>
     );
 }

@@ -9,7 +9,7 @@ const IndexPage = () => (
     <div>
       {/* Background */}
       <div className="page-header">
-        <h1>Profile</h1>
+        <h1>About Me</h1>
       </div>
       <p>
         I am a software engineer based out of Chicago, IL, with {yearsOfExperience} years of professional experience in both frontend and
@@ -22,21 +22,21 @@ const IndexPage = () => (
         as staying the same.  I treat refactoring, bug fixing, and testing with the same care as I do writing new code. I enjoy the
         challenge of constructing code that is not only functional, but maintainable in the long run.
       </p>
-      {/* Technical Proficiencies */}
+      {/* Technical Skills */}
       <AboutMeSection 
-        sectionTitle="Technical Proficiencies"
+        sectionTitle="Technical Skills"
         subsections={[
-          { heading: "Languages", content: "C#, TypeScript, JavaScript, HTML5, CSS/SASS/LESS, SQL" },
-          { heading: "Frameworks", content: "React, .NET (MVC, Core, Webforms), Electron" },
-          { heading: "Tools", content: "Visual Studio, Webpack, npm" },
-          { heading: "Servers and Cloud Platforms", content: "Microsoft Azure, Amazon EC2, Windows Server (2016, 2012, 2008R2)" }
+          { heading: "Languages", content: "C#, TypeScript, JavaScript" },
+          { heading: "Frameworks", content: "React, .NET, Electron, Node.js" },
+          { heading: "Tools", content: "Visual Studio, Webpack, npm, TFS" },
+          { heading: "Software Architecture", content: "REST, SOLID Principles" }
         ]}
       />
       {/* Professional Experience */}
         <AboutMeSection
           sectionTitle="Professional Experience"
           subsections={[
-            { heading: "Velocity EHS - Chicago, IL", content: "Software Engineer II - (November 2015 - Present)" },
+            { heading: "VelocityEHS - Chicago, IL", content: "Software Engineer II - (November 2015 - Present)" },
             { heading: "Azavar Technologies - Chicago, IL", content: "Web Developer - (June 2013 - November 2015)" },
             { heading: "Chicago Architecture Foundation - Chicago, IL", content: "Web Intern - (May 2012 - June 2013)" },
           ]}

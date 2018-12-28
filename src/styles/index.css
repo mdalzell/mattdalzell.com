@@ -58,10 +58,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -229,7 +225,7 @@ h1 {
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 1.1;
 }
 h2 {
@@ -634,4 +630,5 @@ pre tt:after {
 
 .tag {
   margin: 0 15px 15px 0;
+  text-decoration: none;
 }
