@@ -36,7 +36,8 @@ const IndexPage = () => (
         <AboutMeSection
           sectionTitle="Professional Experience"
           subsections={[
-            { heading: "VelocityEHS - Chicago, IL", content: "Software Engineer II - (November 2015 - Present)" },
+            { heading: "Inspire11 - Chicago, IL", content: "Frontend Engineer - (January 2019 - Present)" },
+            { heading: "VelocityEHS - Chicago, IL", content: "Software Engineer II - (November 2015 - December 2018)" },
             { heading: "Azavar Technologies - Chicago, IL", content: "Web Developer - (June 2013 - November 2015)" },
             { heading: "Chicago Architecture Foundation - Chicago, IL", content: "Web Intern - (May 2012 - June 2013)" },
           ]}
