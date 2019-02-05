@@ -1,3 +1,6 @@
+@import url('https://fontlibrary.org/face/xolonium');
+@import url('https://fontlibrary.org/face/fantasque-sans-mono');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -190,7 +193,7 @@ html {
 body {
   background-color: black;
   color: rgb(187, 187, 187);
-  font-family: "Courier New", Courier, monospace;
+  font-family: "FantasqueSansMonoRegular", "Courier New", Courier, monospace;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -223,7 +226,7 @@ h1 {
   margin-bottom: 1.45rem;
   color: cornflowerblue;
   font-weight: bold;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'XoloniumRegular', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 1.8rem;
   line-height: 1.1;
