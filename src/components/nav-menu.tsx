@@ -27,7 +27,7 @@ const NavMenu = () => {
                 </a>
             </li>
             <li>
-                <a href="mailto:matt.a.dalzell@gmail.com">Email</a>
+                <a href="mailto:contact@mattdalzell.com">Email</a>
             </li>
         </ul>
     );
