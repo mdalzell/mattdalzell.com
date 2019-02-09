@@ -2,7 +2,7 @@ import React from 'react'
 import AboutMeSection from '../components/about-me-section'
 import Layout from '../components/layout'
 
-const yearsOfExperience = new Date().getFullYear() - 2012; // I started way back in 2012, I'm ancient
+const yearsOfExperience = new Date().getFullYear() - 2013; // I started way back in 2012 as an intern, I'm ancient
 
 const IndexPage = () => (
   <Layout>
@@ -12,23 +12,18 @@ const IndexPage = () => (
         <h1>About Me</h1>
       </div>
       <p>
-        I am a software engineer based out of Chicago, IL, with {yearsOfExperience} years of professional experience in both frontend and
-        backend web application development.  My background primarily lies within the Microsoft stack (C#/.NET/SQL Server) and
-        various JavaScript frameworks, most recently React.  Over the course of my career, I've worked on everything from large SaaS applications to smaller
-        web apps for businesses across a wide variety of industries.
+        I am a software engineer based out of Chicago, IL, with {yearsOfExperience} years of professional experience in both frontend and backend web application development.  Over the course of my career, I've worked on everything from large SaaS platforms to smaller sites for businesses across a wide variety of industries.  Recently, I've been focusing on JavaScript development, with both React web apps as well as native apps using frameworks such as Electron.
       </p>
       <p>
-        My philosophy for software development is that the code is always improving, or it is always getting worse; there is no such thing
-        as staying the same.  I treat refactoring, bug fixing, and testing with the same care as I do writing new code. I enjoy the
-        challenge of constructing code that is not only functional, but maintainable in the long run.
+        My philosophy for software development is that the code is always improving, or it is always getting worse; there is no such thing as staying the same.  I treat refactoring, bug fixing, and testing with the same care as I do writing new code. I enjoy the challenge of constructing code that is not only functional, but maintainable in the long run.
       </p>
       {/* Technical Skills */}
       <AboutMeSection 
         sectionTitle="Technical Skills"
         subsections={[
-          { heading: "Languages", content: "C#, TypeScript, JavaScript" },
-          { heading: "Frameworks", content: "React, .NET, Electron, Node.js" },
-          { heading: "Tools", content: "Visual Studio, Webpack, npm, TFS" },
+          { heading: "Languages", content: "TypeScript, JavaScript, C#" },
+          { heading: "Frameworks", content: "React, Electron, Node.js, .NET" },
+          { heading: "Tools", content: "Visual Studio Code, npm, git, Webpack" },
           { heading: "Software Architecture", content: "REST, SOLID Principles" }
         ]}
       />
