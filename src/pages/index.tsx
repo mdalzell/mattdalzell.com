@@ -9,16 +9,16 @@ const IndexPage = () => (
     <div>
       {/* Background */}
       <div className="page-header">
-        <h1>About Me</h1>
+        <h1>Hi, I'm Matt Dalzell</h1>
       </div>
       <p>
-        I am a software engineer based out of Chicago, IL, with{' '}
-        {yearsOfExperience} years of professional experience in both frontend
-        and backend web application development. Over the course of my career,
-        I've worked on everything from large SaaS platforms to smaller sites for
-        businesses across a wide variety of industries. Recently, I've been
-        focusing on JavaScript development, with both React web apps as well as
-        native apps using frameworks such as Electron.
+        I am a software engineer based out of Chicago, IL, with
+        {` ${yearsOfExperience}`} years of professional experience in both
+        frontend and backend web application development. Over the course of my
+        career, I've worked on everything from large SaaS platforms to smaller
+        sites for businesses across a variety of industries. Recently, I've been
+        focusing on JavaScript development, primarily React web apps and native
+        apps using frameworks such as Electron.
       </p>
       <p>
         My philosophy for software development is that the code is always
@@ -32,8 +32,11 @@ const IndexPage = () => (
       <AboutMeSection
         sectionTitle="Technical Skills"
         subsections={[
-          { heading: 'Languages', content: 'TypeScript, JavaScript, C#' },
-          { heading: 'Frameworks', content: 'React, Electron, Node.js, .NET' },
+          { heading: 'Languages', content: 'TypeScript, JavaScript/ES6, C#' },
+          {
+            heading: 'Libraries & Frameworks',
+            content: 'React, Electron, .NET',
+          },
           { heading: 'Tools', content: 'Visual Studio Code, npm, git' },
           {
             heading: 'Software Architecture',
