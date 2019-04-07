@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import NavMenu from './nav-menu'
 import { StaticQuery, graphql } from 'gatsby'
 
-import '../styles/bootstrap-grid.min.css';
+import '../styles/bootstrap-grid.min.css'
 import '../styles/index.css'
 
 const Layout = ({ children }) => (
@@ -17,35 +17,52 @@ const Layout = ({ children }) => (
               title
             }
           }
-        }`}
-      render={(data) => 
+        }
+      `}
+      render={data => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Matt Dalzell is a software engineer based out of Chicago, IL.' },
-            { name: 'keywords', content: 'Matt Dalzell, software engineer, blog' },
+            {
+              name: 'description',
+              content:
+                'Matt Dalzell is a software engineer based out of Chicago, IL.',
+            },
+            {
+              name: 'keywords',
+              content: 'Matt Dalzell, software engineer, blog',
+            },
           ]}
-        />
-      }
+        >
+          <link
+            rel="stylesheet"
+            media="screen"
+            href="https://fontlibrary.org/face/fantasque-sans-mono"
+            type="text/css"
+          />
+          <link
+            rel="stylesheet"
+            media="screen"
+            href="https://fontlibrary.org/face/xolonium"
+            type="text/css"
+          />
+        </Helmet>
+      )}
     />
-    <div className='container-fluid'>
-      <div className='row'>
-        <div className='col-sm-3'>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-sm-3">
           <NavMenu />
         </div>
-        <div className='col-sm-9'>
-          {children}
-        </div>
+        <div className="col-sm-9">{children}</div>
       </div>
     </div>
-    <div className='footer'>
-      &copy; {new Date().getFullYear()} Matt Dalzell
-    </div>
+    <div className="footer">&copy; {new Date().getFullYear()} Matt Dalzell</div>
   </div>
 )
 
 Layout.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.element,
 }
 
 export default Layout
