@@ -13,46 +13,54 @@ interface IBlogPageProps {
   location
 }
 
-class BlogPage extends React.Component<IBlogPageProps> {
-  render() {
-    const urlParams = new URLSearchParams(this.props.location.search)
-    const tag = urlParams.get('tag')
+const BlogPage = (props: IBlogPageProps) => {
+  const {
+    data: {
+      allMarkdownRemark: { edges, group },
+    },
+    location: { search },
+  } = props
+  const urlParams = new URLSearchParams(search)
+  const tag = urlParams.get('tag')
 
-    return (
-      <Layout>
-        <div>
-          <h1>Blog</h1>
-          <h3>{tag ? 'Posts featuring "' + tag + '"' : 'Recent Posts'}</h3>
-          <ul className="no-list-style">
-            {this.props.data.allMarkdownRemark.edges.map(
-              ({ node }) =>
-                (!tag || node.frontmatter.tags.indexOf(tag) !== -1) && (
-                  <li key={node.id}>
-                    <Link to={'/blog' + node.fields.slug}>
-                      {node.frontmatter.title + ' - ' + node.frontmatter.date}
-                    </Link>
-                  </li>
-                )
-            )}
-          </ul>
-          {!tag && (
-            <>
-              <h3>Tags</h3>
-              <p>
-                {this.props.data.allMarkdownRemark.group.map(tag => (
-                  <Link to={'/blog?tag=' + tag.fieldValue} className="tag">
-                    {'#' + tag.fieldValue}
-                  </Link>
-                ))}
-              </p>
-              <Link to="/">Return Home</Link>
-            </>
+  return (
+    <Layout>
+      <div>
+        <h1>Blog</h1>
+        <h3>{tag ? 'Posts featuring "' + tag + '"' : 'Recent Posts'}</h3>
+        <ul className="no-list-style">
+          {edges.map(
+            ({
+              node: {
+                id,
+                fields: { slug },
+                frontmatter: { tags, title, date },
+              },
+            }) =>
+              (!tag || tags.indexOf(tag) !== -1) && (
+                <li key={id}>
+                  <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
+                </li>
+              )
           )}
-          {tag && <Link to="/blog">Return to Blog</Link>}
-        </div>
-      </Layout>
-    )
-  }
+        </ul>
+        {!tag && (
+          <>
+            <h3>Tags</h3>
+            <p>
+              {group.map(({ fieldValue }) => (
+                <Link to={'/blog?tag=' + fieldValue} className="tag">
+                  {'#' + fieldValue}
+                </Link>
+              ))}
+            </p>
+            <Link to="/">Return Home</Link>
+          </>
+        )}
+        {tag && <Link to="/blog">Return to Blog</Link>}
+      </div>
+    </Layout>
+  )
 }
 
 export const query = graphql`
