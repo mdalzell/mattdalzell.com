@@ -27,7 +27,8 @@
     "lint": "tslint 'src/**/*.ts?(x)'"
   },
   "devDependencies": {
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "tslint-config-prettier": "^1.18.0"
   },
   "repository": {
     "type": "git",
