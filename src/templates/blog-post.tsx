@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Tag from '../components/tag'
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
@@ -13,9 +14,7 @@ const BlogPost = ({ data }) => {
         <p>~ MAD</p>
         <p>
           {post.frontmatter.tags.map(tag => (
-            <Link to={'/blog?tag=' + tag} className="tag">
-              {'#' + tag}
-            </Link>
+            <Tag value={tag} key={tag} />
           ))}
         </p>
         <Link to="/blog">Return to Blog</Link>

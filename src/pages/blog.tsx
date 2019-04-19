@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+import Tag from '../components/tag'
 import URLSearchParams from '@ungap/url-search-params'
 
 interface IBlogPageProps {
@@ -49,9 +50,7 @@ const BlogPage = (props: IBlogPageProps) => {
             <h3>Tags</h3>
             <p>
               {group.map(({ fieldValue }) => (
-                <Link to={'/blog?tag=' + fieldValue} className="tag">
-                  {'#' + fieldValue}
-                </Link>
+                <Tag value={fieldValue} key={fieldValue} />
               ))}
             </p>
             <Link to="/">Return Home</Link>
