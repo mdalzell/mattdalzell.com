@@ -12,7 +12,7 @@ const NavMenu = () => {
       </li>
       <li>
         <a
-          href={process.env.RESUME_URL}
+          href={process.env.GATSBY_RESUME_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
