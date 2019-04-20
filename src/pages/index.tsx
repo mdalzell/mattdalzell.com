@@ -32,15 +32,15 @@ const IndexPage = () => (
       <AboutMeSection
         sectionTitle="Technical Skills"
         subsections={[
-          { heading: 'Languages', content: 'TypeScript, JavaScript/ES6, C#' },
+          { content: 'TypeScript, JavaScript/ES6, C#', heading: 'Languages' },
           {
-            heading: 'Libraries & Frameworks',
             content: 'React, Electron, .NET',
+            heading: 'Libraries & Frameworks',
           },
-          { heading: 'Tools', content: 'Visual Studio Code, npm, git' },
+          { content: 'Visual Studio Code, npm, git', heading: 'Tools' },
           {
-            heading: 'Software Architecture',
             content: 'REST, SOLID Principles',
+            heading: 'Software Architecture',
           },
         ]}
       />
@@ -49,20 +49,20 @@ const IndexPage = () => (
         sectionTitle="Professional Experience"
         subsections={[
           {
-            heading: 'Inspire11 - Chicago, IL',
             content: 'Frontend Engineer - (January 2019 - Present)',
+            heading: 'Inspire11 - Chicago, IL',
           },
           {
-            heading: 'VelocityEHS - Chicago, IL',
             content: 'Software Engineer II - (November 2015 - December 2018)',
+            heading: 'VelocityEHS - Chicago, IL',
           },
           {
-            heading: 'Azavar Technologies - Chicago, IL',
             content: 'Web Developer - (June 2013 - November 2015)',
+            heading: 'Azavar Technologies - Chicago, IL',
           },
           {
-            heading: 'Chicago Architecture Foundation - Chicago, IL',
             content: 'Web Intern - (May 2012 - June 2013)',
+            heading: 'Chicago Architecture Foundation - Chicago, IL',
           },
         ]}
       />
@@ -71,8 +71,8 @@ const IndexPage = () => (
         sectionTitle="Education"
         subsections={[
           {
-            heading: 'Northwestern University - Evanston, IL',
             content: 'B.S. in Computer Science - Class of 2013',
+            heading: 'Northwestern University - Evanston, IL',
           },
         ]}
       />
@@ -81,8 +81,8 @@ const IndexPage = () => (
         sectionTitle="Other Honors"
         subsections={[
           {
-            heading: 'Eagle Scout',
             content: 'Troop 652, Boy Scouts of America - 2009',
+            heading: 'Eagle Scout',
           },
         ]}
       />

@@ -1,8 +1,9 @@
+import URLSearchParams from '@ungap/url-search-params'
+import { graphql, Link } from 'gatsby'
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+
 import Layout from '../components/layout'
 import Tag from '../components/tag'
-import URLSearchParams from '@ungap/url-search-params'
 
 interface IBlogPageProps {
   data: {

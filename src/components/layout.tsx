@@ -1,8 +1,9 @@
-import React from 'react'
+import { graphql, StaticQuery } from 'gatsby'
 import PropTypes from 'prop-types'
+import React from 'react'
 import Helmet from 'react-helmet'
+
 import NavMenu from './nav-menu'
-import { StaticQuery, graphql } from 'gatsby'
 
 import '../styles/bootstrap-grid.min.css'
 import '../styles/index.css'
@@ -24,13 +25,13 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             {
-              name: 'description',
               content:
                 'Matt Dalzell is a software engineer based out of Chicago, IL.',
+              name: 'description',
             },
             {
-              name: 'keywords',
               content: 'Matt Dalzell, software engineer, blog',
+              name: 'keywords',
             },
           ]}
         >
