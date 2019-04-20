@@ -1,5 +1,6 @@
-import React from 'react'
 import { Link } from 'gatsby'
+import React from 'react'
+
 import Resume from '../files/resume.pdf'
 
 const NavMenu = () => {
