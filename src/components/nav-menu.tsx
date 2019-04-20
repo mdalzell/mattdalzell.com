@@ -1,8 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-import Resume from '../files/resume.pdf'
-
 const NavMenu = () => {
   return (
     <ul className="nav nav-list">
@@ -13,7 +11,11 @@ const NavMenu = () => {
         <Link to="/blog">Blog</Link>
       </li>
       <li>
-        <a href={Resume} target="_blank" rel="noopener noreferrer">
+        <a
+          href={process.env.RESUME_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <span>
             <span className="glyphicon glyphicon-list-alt" />
             Resume
