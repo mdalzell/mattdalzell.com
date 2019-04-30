@@ -52,13 +52,16 @@ const Layout = ({ children }) => (
     />
     <div className="container-fluid">
       <div className="row">
-        <div className="col-sm-3">
+        <div className="col-sm-3 hidden-sm">
           <NavMenu />
         </div>
         <div className="col-sm-9">{children}</div>
       </div>
     </div>
-    <div className="footer">&copy; {new Date().getFullYear()} Matt Dalzell</div>
+    <div className="footer">
+      <div>&copy; {new Date().getFullYear()} Matt Dalzell</div>
+      <NavMenu />
+    </div>
   </div>
 )
 

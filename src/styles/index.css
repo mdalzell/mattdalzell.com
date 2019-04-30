@@ -557,11 +557,6 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 .footer {
   bottom: 0;
@@ -570,6 +565,24 @@ pre tt:after {
   padding: 10px 0;
   text-align: center;
   width: 100%;
+}
+
+.footer .nav {
+  border: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+
+.footer .nav li {
+  border-right: solid #f92672 1px;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .nav li:last-child {
+  border: none;
 }
 
 .nav {
@@ -590,4 +603,20 @@ pre tt:after {
   color: #f92672;
   margin: 0 15px 15px 0;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 100%;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .footer .nav li {
+    border-right: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+  }
 }
