@@ -1,13 +1,19 @@
 import React from 'react'
-import AboutMeSection from '../components/about-me-section'
+
 import Layout from '../components/layout'
+import Section from '../components/section'
+import {
+  education,
+  otherHonors,
+  professionalExperience,
+  technicalSkills,
+} from '../constants/copy'
 
 const yearsOfExperience = new Date().getFullYear() - 2013 // I started way back in 2012 as an intern, I'm ancient
 
 const IndexPage = () => (
   <Layout>
-    <div>
-      {/* Background */}
+    <>
       <div className="page-header">
         <h1>Hi, I'm Matt Dalzell</h1>
       </div>
@@ -28,65 +34,14 @@ const IndexPage = () => (
         constructing code that is not only functional, but maintainable in the
         long run.
       </p>
-      {/* Technical Skills */}
-      <AboutMeSection
-        sectionTitle="Technical Skills"
-        subsections={[
-          { content: 'TypeScript, JavaScript/ES6, C#', heading: 'Languages' },
-          {
-            content: 'React, Electron, .NET',
-            heading: 'Libraries & Frameworks',
-          },
-          { content: 'Visual Studio Code, npm, git', heading: 'Tools' },
-          {
-            content: 'REST, SOLID Principles',
-            heading: 'Software Architecture',
-          },
-        ]}
-      />
-      {/* Professional Experience */}
-      <AboutMeSection
+      <Section sectionTitle="Technical Skills" subsections={technicalSkills} />
+      <Section
         sectionTitle="Professional Experience"
-        subsections={[
-          {
-            content: 'Frontend Engineer - (January 2019 - Present)',
-            heading: 'Inspire11 - Chicago, IL',
-          },
-          {
-            content: 'Software Engineer II - (November 2015 - December 2018)',
-            heading: 'VelocityEHS - Chicago, IL',
-          },
-          {
-            content: 'Web Developer - (June 2013 - November 2015)',
-            heading: 'Azavar Technologies - Chicago, IL',
-          },
-          {
-            content: 'Web Intern - (May 2012 - June 2013)',
-            heading: 'Chicago Architecture Foundation - Chicago, IL',
-          },
-        ]}
+        subsections={professionalExperience}
       />
-      {/* Education */}
-      <AboutMeSection
-        sectionTitle="Education"
-        subsections={[
-          {
-            content: 'B.S. in Computer Science - Class of 2013',
-            heading: 'Northwestern University - Evanston, IL',
-          },
-        ]}
-      />
-      {/* Other Honors */}
-      <AboutMeSection
-        sectionTitle="Other Honors"
-        subsections={[
-          {
-            content: 'Troop 652, Boy Scouts of America - 2009',
-            heading: 'Eagle Scout',
-          },
-        ]}
-      />
-    </div>
+      <Section sectionTitle="Education" subsections={education} />
+      <Section sectionTitle="Other Honors" subsections={otherHonors} />
+    </>
   </Layout>
 )
 
