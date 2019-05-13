@@ -58,15 +58,19 @@ const Layout = ({ children }) => (
         <div className="col-sm-9">{children}</div>
       </div>
     </div>
-    <div className="footer">
-      <div>&copy; {new Date().getFullYear()} Matt Dalzell</div>
-      <NavMenu />
-    </div>
+    <Footer />
   </div>
 )
 
 Layout.propTypes = {
   children: PropTypes.element,
 }
+
+const Footer = () => (
+  <div className="footer">
+    <NavMenu />
+    <div>&copy; {new Date().getFullYear()} Matt Dalzell</div>
+  </div>
+)
 
 export default Layout
