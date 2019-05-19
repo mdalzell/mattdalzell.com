@@ -1,7 +1,7 @@
 ---
 title: 'Hello World'
 date: '2018-09-08'
-tags: ['gatsby.js', 'React']
+tags: ['Gatsby', 'React']
 ---
 
 I've often heard that laziness can be considered a virtue for a programmer, but I feel like I've taken that too literally in regards to finally starting up a developer blog.
