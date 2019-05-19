@@ -1,6 +1,6 @@
 ---
 title: 'Comparison of LaunchDarkly React Libraries'
-date: '2019-05-20'
+date: '2019-05-19'
 tags: ['React', 'JavaScript', 'LaunchDarkly']
 ---
 
