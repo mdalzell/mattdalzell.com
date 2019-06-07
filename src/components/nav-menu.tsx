@@ -36,7 +36,7 @@ const NavMenu = () => {
       </li>
       <li>
         <a
-          href="https://stackoverflow.com/users/story/2570284"
+          href="https://stackoverflow.com/story/mattdalzell"
           target="_blank"
           rel="noopener noreferrer"
         >
