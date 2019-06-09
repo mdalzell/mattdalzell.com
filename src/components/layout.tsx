@@ -8,7 +8,11 @@ import NavMenu from './nav-menu'
 import '../styles/bootstrap-grid.min.css'
 import '../styles/index.css'
 
-const Layout = ({ children }) => (
+interface IProps {
+  children: React.ReactNode
+}
+
+const Layout = ({ children }: IProps) => (
   <div>
     <StaticQuery
       query={graphql`

@@ -8,11 +8,21 @@ import Tag from '../components/tag'
 interface IBlogPageProps {
   data: {
     allMarkdownRemark: {
-      edges
-      group
+      edges: INode[]
+      group: Array<{ fieldValue: string }>
     }
   }
-  location
+  location: {
+    search: string
+  }
+}
+
+interface INode {
+  node: {
+    id: number
+    fields: { slug: string }
+    frontmatter: { tags: string[]; title: string; date: string }
+  }
 }
 
 const BlogPage = (props: IBlogPageProps) => {
@@ -38,7 +48,7 @@ const BlogPage = (props: IBlogPageProps) => {
                 fields: { slug },
                 frontmatter: { tags, title, date },
               },
-            }) =>
+            }: INode) =>
               (!tag || tags.indexOf(tag) !== -1) && (
                 <li key={id}>
                   <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
@@ -50,7 +60,7 @@ const BlogPage = (props: IBlogPageProps) => {
           <>
             <h3>Tags</h3>
             <p>
-              {group.map(({ fieldValue }) => (
+              {group.map(({ fieldValue }: { fieldValue: string }) => (
                 <Tag value={fieldValue} key={fieldValue} />
               ))}
             </p>
