@@ -1,7 +1,11 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-const Tag = ({ value }) => (
+interface IProps {
+  value: string
+}
+
+const Tag = ({ value }: IProps) => (
   <Link to={'/blog?tag=' + value} className="tag">
     {'#' + value}
   </Link>
