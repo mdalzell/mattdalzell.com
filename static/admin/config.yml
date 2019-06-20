@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: mdalzell/mattdalzell.com
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/blog
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: date, label: Date, widget: date }
+      - { name: tags, label: Tags, widget: list }
+      - { name: body, label: Body, widget: markdown }
