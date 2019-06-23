@@ -4,6 +4,7 @@ date: 2019-06-23T01:42:19.460Z
 tags:
   - Gastby
   - Netlify CMS
+draft: true
 ---
 When I first set out to start blogging about my experiences in software development, my goal was to have a new post out about every two weeks.  Like the engineer that I am, I think I underestimated how long it would take to deliver that content a little bit.  It seems like I've fallen into a pattern of writing a new post every month, if that.  
 
