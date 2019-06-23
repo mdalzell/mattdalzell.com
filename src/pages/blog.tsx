@@ -21,7 +21,12 @@ interface INode {
   node: {
     id: number
     fields: { slug: string }
-    frontmatter: { tags: string[]; title: string; date: string }
+    frontmatter: {
+      tags: string[]
+      title: string
+      date: string
+      draft?: boolean
+    }
   }
 }
 
@@ -46,7 +51,7 @@ const BlogPage = (props: IBlogPageProps) => {
               node: {
                 id,
                 fields: { slug },
-                frontmatter: { tags, title, date },
+                frontmatter: { tags, title, date, draft },
               },
             }: INode) =>
               (!tag || tags.indexOf(tag) !== -1) && (
@@ -75,7 +80,10 @@ const BlogPage = (props: IBlogPageProps) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
       totalCount
       edges {
         node {
@@ -87,6 +95,7 @@ export const query = graphql`
             tags
             title
             date(formatString: "DD MMMM, YYYY")
+            draft
           }
         }
       }

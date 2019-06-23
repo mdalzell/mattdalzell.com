@@ -14,4 +14,5 @@ collections:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
       - { name: tags, label: Tags, widget: list }
+      - { name: draft, label: Save As Draft, widget: boolean }
       - { name: body, label: Body, widget: markdown }
