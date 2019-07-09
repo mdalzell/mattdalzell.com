@@ -453,6 +453,7 @@ th {
   font-weight: bold;
 }
 li {
+  font-size: 0.9rem;
   margin-bottom: calc(1.45rem / 2);
 }
 ol li {
