@@ -37,6 +37,7 @@ template {
 a {
   background-color: transparent;
   color: #66d9ef;
+  font-size: 0.9rem;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -315,6 +316,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  font-size: 0.9rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;

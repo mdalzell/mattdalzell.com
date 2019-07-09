@@ -39,18 +39,6 @@ const Layout = ({ children }: IProps) => (
             },
           ]}
         >
-          <link
-            rel="stylesheet"
-            media="screen"
-            href="https://fontlibrary.org/face/fantasque-sans-mono"
-            type="text/css"
-          />
-          <link
-            rel="stylesheet"
-            media="screen"
-            href="https://fontlibrary.org/face/xolonium"
-            type="text/css"
-          />
         </Helmet>
       )}
     />
