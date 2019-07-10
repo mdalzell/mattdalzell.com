@@ -586,17 +586,13 @@ code {
 }
 
 @media only screen and (max-width: 576px) {
-  html {
-    font-size: 100%;
-  }
-
   .hidden-sm {
     display: none;
   }
 
   .footer .nav li {
     border-right: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 5px 10px;
   }
 }
