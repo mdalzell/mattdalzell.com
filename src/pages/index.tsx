@@ -22,7 +22,7 @@ const IndexPage = () => (
         {` ${yearsOfExperience}`} years of professional experience in both
         frontend and backend web application development. Over the course of my
         career, I've worked on everything from large SaaS platforms to smaller
-        sites for businesses across a variety of industries. Recently, I've been
+        apps for businesses across a variety of industries. Recently, I've been
         focusing on JavaScript development, primarily React web apps and native
         apps using frameworks such as Electron.
       </p>

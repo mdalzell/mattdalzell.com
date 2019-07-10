@@ -28,7 +28,7 @@ export const professionalExperience = [
 ]
 
 export const technicalSkills = [
-  { content: 'TypeScript, JavaScript/ES6, C#', heading: 'Languages' },
+  { content: 'TypeScript, JavaScript/ES6+, C#', heading: 'Languages' },
   {
     content: 'React, Electron, .NET',
     heading: 'Libraries & Frameworks',
