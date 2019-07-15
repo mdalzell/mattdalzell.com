@@ -1,3 +1,4 @@
+import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 
 import Layout from '../components/layout'
@@ -17,15 +18,29 @@ const IndexPage = () => (
       <div className="page-header">
         <h1>Hi, I'm Matt Dalzell</h1>
       </div>
-      <p>
-        I am a software engineer based out of Chicago, IL, with
-        {` ${yearsOfExperience}`} years of professional experience in both
-        frontend and backend web application development. Over the course of my
-        career, I've worked on everything from large SaaS platforms to smaller
-        apps for businesses across a variety of industries. Recently, I've been
-        focusing on JavaScript development, primarily React web apps and native
-        apps using frameworks such as Electron.
-      </p>
+      <StaticQuery
+        query={graphql`
+          query SiteDescriptionQuery {
+            site {
+              siteMetadata {
+                description
+              }
+            }
+          }
+        `}
+        render={({ site }) => {
+          const {
+            siteMetadata: { description },
+          } = site
+
+          const firstPersonDescription = description.replace(
+            'Matt Dalzell is',
+            'I am'
+          )
+
+          return <p>{firstPersonDescription}</p>
+        }}
+      />
       <p>
         My philosophy for software development is that the code is always
         improving, or it is always getting worse; there is no such thing as

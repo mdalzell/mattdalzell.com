@@ -1,5 +1,4 @@
 import { graphql, StaticQuery } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 import Helmet from 'react-helmet'
 
@@ -16,31 +15,37 @@ const Layout = ({ children }: IProps) => (
   <div>
     <StaticQuery
       query={graphql`
-        query SiteTitleQuery {
+        query SiteMetadataQuery {
           site {
             siteMetadata {
+              description
+              keywords
               title
             }
           }
         }
       `}
-      render={data => (
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            {
-              content:
-                'Matt Dalzell is a software engineer based out of Chicago, IL.',
-              name: 'description',
-            },
-            {
-              content: 'Matt Dalzell, software engineer, blog',
-              name: 'keywords',
-            },
-          ]}
-        >
-        </Helmet>
-      )}
+      render={({ site }) => {
+        const {
+          siteMetadata: { description, keywords, title },
+        } = site
+
+        return (
+          <Helmet
+            title={title}
+            meta={[
+              {
+                content: description,
+                name: 'description',
+              },
+              {
+                content: keywords,
+                name: 'keywords',
+              },
+            ]}
+          ></Helmet>
+        )
+      }}
     />
     <div className="container-fluid">
       <div className="row">
@@ -53,10 +58,6 @@ const Layout = ({ children }: IProps) => (
     <Footer />
   </div>
 )
-
-Layout.propTypes = {
-  children: PropTypes.element,
-}
 
 const Footer = () => (
   <div className="footer">
