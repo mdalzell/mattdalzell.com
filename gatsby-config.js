@@ -1,6 +1,6 @@
 const yearsOfExperience = new Date().getFullYear() - 2013 // I started way back in 2012 as an intern, I'm ancient
 
-const description = `I am a software engineer based out of Chicago, IL, with
+const description = `Matt Dalzell is a software engineer based out of Chicago, IL, with
  ${yearsOfExperience} years of professional experience in both
 frontend and backend web application development. Over the course of my
 career, I've worked on everything from large SaaS platforms to smaller
