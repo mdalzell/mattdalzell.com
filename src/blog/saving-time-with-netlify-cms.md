@@ -2,7 +2,7 @@
 title: Saving Time with Netlify CMS
 date: 2019-06-24T01:42:19.460Z
 tags:
-  - Gastby
+  - Gatsby
   - Netlify CMS
 draft: false
 ---
