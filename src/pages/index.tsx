@@ -3,14 +3,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Section from '../components/section'
-import {
-  education,
-  otherHonors,
-  professionalExperience,
-  technicalSkills,
-} from '../constants/copy'
-
-const yearsOfExperience = new Date().getFullYear() - 2013 // I started way back in 2012 as an intern, I'm ancient
+import { technicalSkills } from '../constants/copy'
 
 const IndexPage = () => (
   <Layout>
@@ -45,17 +38,11 @@ const IndexPage = () => (
         My philosophy for software development is that the code is always
         improving, or it is always getting worse; there is no such thing as
         staying the same. I treat refactoring, bug fixing, and testing with the
-        same care as I do writing new code. I enjoy the challenge of
+        same care as I do writing greenfield code. I enjoy the challenge of
         constructing code that is not only functional, but maintainable in the
         long run.
       </p>
       <Section sectionTitle="Technical Skills" subsections={technicalSkills} />
-      <Section
-        sectionTitle="Professional Experience"
-        subsections={professionalExperience}
-      />
-      <Section sectionTitle="Education" subsections={education} />
-      <Section sectionTitle="Other Honors" subsections={otherHonors} />
     </>
   </Layout>
 )
