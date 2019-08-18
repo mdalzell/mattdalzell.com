@@ -4,7 +4,7 @@ const description = `Matt Dalzell is a software engineer based out of Chicago, I
  ${yearsOfExperience} years of professional experience in both
 frontend and backend web application development. Over the course of my
 career, I've worked on everything from large SaaS platforms to smaller
-apps for businesses across a variety of industries.`
+apps for businesses across a variety of industries, including workplace safety, fintech, and automotive technology.`
 
 const keywords = 'Matt Dalzell, software engineer, blog'
 
