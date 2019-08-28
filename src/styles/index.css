@@ -1,3 +1,13 @@
+@font-face {
+  font-family: FantasqueSansMonoRegular;
+  src: url('../fonts/FantasqueSansMono-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: XoloniumRegular;
+  src: url('../fonts/Xolonium-Regular.woff');
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -37,7 +47,7 @@ template {
 a {
   background-color: transparent;
   color: #66d9ef;
-  font-size: 0.9rem;
+  font-size: 1rem;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
@@ -224,8 +234,7 @@ h1 {
   margin-bottom: 1.45rem;
   color: #66d9ef;
   font-weight: bold;
-  font-family: 'XoloniumRegular', 'Trebuchet MS', 'Lucida Sans Unicode',
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'XoloniumRegular', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 1.8rem;
   line-height: 1.1;
@@ -241,8 +250,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-weight: bold;
-  font-family: 'XoloniumRegular', 'Trebuchet MS', 'Lucida Sans Unicode',
-    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'XoloniumRegular', Arial, sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 1.5rem;
   line-height: 1.1;
@@ -257,9 +265,10 @@ h3 {
   padding-top: 0;
   margin-bottom: 0;
   color: #ffd866;
+  font-family: 'FantasqueSansMonoRegular', monospace;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.1;
 }
 hgroup {
@@ -316,7 +325,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -453,7 +462,7 @@ th {
   font-weight: bold;
 }
 li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: calc(1.45rem / 2);
 }
 ol li {
