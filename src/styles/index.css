@@ -574,6 +574,10 @@ code {
   border: none;
 }
 
+.intro {
+  margin: 0 0 1.45rem;
+}
+
 .nav {
   background-color: transparent;
   border: solid #f92672;

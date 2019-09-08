@@ -1,0 +1,48 @@
+import React from 'react'
+
+import Layout from '../components/layout'
+import Section from '../components/section'
+
+const Home = ({ data }) => {
+  const {
+    frontmatter: { intro, skills, title },
+  } = data.markdownRemark
+  const subsections = skills.sections.map(section => {
+    return {
+      content: section.skills.map(({ skill }) => skill).join(', '),
+      heading: section.title,
+    }
+  })
+
+  return (
+    <Layout>
+      <div className="page-header">
+        <h1>{title}</h1>
+      </div>
+      <div className="intro" dangerouslySetInnerHTML={{ __html: intro }} />
+      <Section sectionTitle={skills.title} subsections={subsections} />
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query IndexPageQuery($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      frontmatter {
+        intro
+        skills {
+          title
+          sections {
+            title
+            skills {
+              skill
+            }
+          }
+        }
+        title
+      }
+    }
+  }
+`
+
+export default Home
