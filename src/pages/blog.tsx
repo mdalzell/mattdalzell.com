@@ -82,7 +82,10 @@ export const query = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { ne: true } } }
+      filter: {
+        fields: { collection: { eq: "blog" } }
+        frontmatter: { draft: { ne: true } }
+      }
     ) {
       totalCount
       edges {
