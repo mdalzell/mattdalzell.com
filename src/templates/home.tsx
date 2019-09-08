@@ -5,6 +5,7 @@ import Section from '../components/section'
 
 const Home = ({ data }) => {
   const {
+    html,
     frontmatter: { intro, skills, title },
   } = data.markdownRemark
   const subsections = skills.sections.map(section => {
@@ -19,7 +20,7 @@ const Home = ({ data }) => {
       <div className="page-header">
         <h1>{title}</h1>
       </div>
-      <div className="intro" dangerouslySetInnerHTML={{ __html: intro }} />
+      <div className="intro" dangerouslySetInnerHTML={{ __html: html }} />
       <Section sectionTitle={skills.title} subsections={subsections} />
     </Layout>
   )
@@ -28,8 +29,8 @@ const Home = ({ data }) => {
 export const query = graphql`
   query IndexPageQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
       frontmatter {
-        intro
         skills {
           title
           sections {
