@@ -1,5 +1,5 @@
-const path = require(`path`);
-const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -10,15 +10,21 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `slug`,
       value: slug,
     })
+    createNodeField({
+      node,
+      name: `collection`,
+      value: getNode(node.parent).sourceInstanceName,
+    })
   }
-};
+}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
+    // Blog posts
     graphql(`
       {
-        allMarkdownRemark {
+        allMarkdownRemark(filter: { fields: { collection: { eq: "blog" } } }) {
           edges {
             node {
               fields {
@@ -31,7 +37,7 @@ exports.createPages = ({ graphql, actions }) => {
     `).then(result => {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
-          path: "blog" + node.fields.slug,
+          path: 'blog' + node.fields.slug,
           component: path.resolve(`./src/templates/blog-post.tsx`),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
@@ -39,8 +45,38 @@ exports.createPages = ({ graphql, actions }) => {
           },
         })
       })
-      resolve()
     })
-  })
-};
 
+    // Index page
+    graphql(`
+      {
+        allMarkdownRemark(
+          filter: { fields: { collection: { eq: "content" } } }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }
+    `).then(result => {
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        if (node.fields.slug === '/') {
+          createPage({
+            path: '/',
+            component: path.resolve(`./src/templates/home.tsx`),
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              slug: node.fields.slug,
+            },
+          })
+        }
+      })
+    })
+
+    resolve()
+  })
+}
