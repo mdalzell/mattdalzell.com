@@ -6,10 +6,7 @@ intro: >-
   development. Over the course of my career, I've worked on everything from
   large SaaS platforms to smaller apps for businesses across a variety of
   industries.
-
-
-
-
+    
   My philosophy for software development is that the code is always improving,
   or it is always getting worse; there is no such thing as staying the same. I
   treat refactoring, bug fixing, and testing with the same care as I do writing
