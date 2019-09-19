@@ -6,9 +6,11 @@ const Section = props => {
     <div>
       <div className="page-header">
         <h2>{sectionTitle}</h2>
-        {subsections.map(subsection => (
-          <Subsection {...subsection} />
-        ))}
+        <dl>
+          {subsections.map(subsection => (
+            <Subsection {...subsection} />
+          ))}
+        </dl>
       </div>
     </div>
   )
@@ -17,10 +19,10 @@ const Section = props => {
 const Subsection = props => {
   const { heading, content } = props
   return (
-    <div key={heading}>
-      <h3>{heading}</h3>
-      <p>{content}</p>
-    </div>
+    <React.Fragment key={heading}>
+      <dt>{heading}</dt>
+      <dd>{content}</dd>
+    </React.Fragment>
   )
 }
 

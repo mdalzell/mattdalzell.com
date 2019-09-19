@@ -18,7 +18,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,
@@ -212,17 +211,6 @@ body {
   margin-bottom: 0;
   padding-top: 20px;
 }
-img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
 h1 {
   margin-left: 0;
   margin-right: 0;
@@ -255,15 +243,10 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.1;
 }
-h3 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 0;
+h3,
+dt {
+  margin: 0;
+  padding: 0;
   color: #ffd866;
   font-family: 'FantasqueSansMonoRegular', monospace;
   font-weight: bold;
@@ -271,15 +254,8 @@ h3 {
   font-size: 1.1rem;
   line-height: 1.1;
 }
-hgroup {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
+dd {
+  margin: 0 0 1.45rem;
 }
 ul {
   margin-left: 0;
@@ -314,28 +290,8 @@ dl {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-dd {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
 p {
   font-size: 1rem;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
-figure {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -361,20 +317,6 @@ pre {
   overflow: auto;
   word-wrap: normal;
   padding: 1.45rem;
-}
-table {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  font-size: 1rem;
-  line-height: 1.45rem;
-  border-collapse: collapse;
-  width: 100%;
 }
 fieldset {
   margin-left: 0;
@@ -416,16 +358,6 @@ noscript {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
-iframe {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-}
 hr {
   margin-left: 0;
   margin-right: 0;
@@ -453,12 +385,6 @@ b {
   font-weight: bold;
 }
 strong {
-  font-weight: bold;
-}
-dt {
-  font-weight: bold;
-}
-th {
   font-weight: bold;
 }
 li {
@@ -494,10 +420,7 @@ li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 code {
-  font-size: 0.85rem;
-  line-height: 1.45rem;
-}
-kbd {
+  color: #ffd866;
   font-size: 0.85rem;
   line-height: 1.45rem;
 }
@@ -518,36 +441,7 @@ abbr[title] {
   cursor: help;
   text-decoration: none;
 }
-thead {
-  text-align: left;
-}
-td,
-th {
-  text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
-  font-feature-settings: 'tnum';
-  -moz-font-feature-settings: 'tnum';
-  -ms-font-feature-settings: 'tnum';
-  -webkit-font-feature-settings: 'tnum';
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
-}
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
-}
-
-code {
-  color: #ffd866;
-}
-
-.footer {
+footer {
   bottom: 0;
   border-top: 1px solid rgb(187, 187, 187);
   margin-top: 50px;
@@ -555,29 +449,24 @@ code {
   text-align: center;
   width: 100%;
 }
-
-.footer .nav {
+footer .nav {
   border: none;
   margin: 10px 0 0 0;
   padding: 0;
   position: relative;
   top: 0;
 }
-
-.footer .nav li {
+footer .nav li {
   border-right: solid #f92672 1px;
   display: inline-block;
   padding: 0 15px;
 }
-
-.footer .nav li:last-child {
+footer .nav li:last-child {
   border: none;
 }
-
 .intro {
   margin: 0 0 1.45rem;
 }
-
 .nav {
   background-color: transparent;
   border: solid #f92672;
@@ -586,24 +475,20 @@ code {
   position: sticky;
   top: 28px;
 }
-
 .no-list-style {
   list-style-type: none;
   padding-left: 0;
 }
-
 .tag {
   color: #f92672;
   margin: 0 15px 15px 0;
   text-decoration: none;
 }
-
 @media only screen and (max-width: 576px) {
   .hidden-sm {
     display: none;
   }
-
-  .footer .nav li {
+  footer .nav li {
     border-right: none;
     font-size: 1.2rem;
     padding: 5px 10px;

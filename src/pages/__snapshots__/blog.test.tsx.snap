@@ -132,9 +132,7 @@ exports[`BlogPage should match snapshot for default view 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="footer"
-  >
+  <footer>
     <ul
       className="nav nav-list"
     >
@@ -206,6 +204,6 @@ exports[`BlogPage should match snapshot for default view 1`] = `
       2019
        Matt Dalzell
     </div>
-  </div>
+  </footer>
 </div>
 `;
