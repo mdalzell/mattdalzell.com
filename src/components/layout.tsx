@@ -60,10 +60,10 @@ const Layout = ({ children }: IProps) => (
 )
 
 const Footer = () => (
-  <div className="footer">
+  <footer>
     <NavMenu />
     <div>&copy; {new Date().getFullYear()} Matt Dalzell</div>
-  </div>
+  </footer>
 )
 
 export default Layout
