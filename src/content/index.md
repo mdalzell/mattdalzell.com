@@ -1,5 +1,5 @@
 ---
-title: "Hi, I'm Matt Dalzell"
+title: 'Hi, I''m Matt Dalzell'
 skills:
   sections:
     - title: Languages
@@ -15,6 +15,8 @@ skills:
     - title: DevOps/Infrastructure
       skills:
         - skill: AWS (EC2/S3)
+        - skill: Azure (Monitor)
+        - skill: Jenkins
         - skill: LaunchDarkly
     - title: Testing
       skills:
