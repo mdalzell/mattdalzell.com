@@ -36,8 +36,6 @@ const BlogPage = (props: IBlogPageProps) => {
     },
     location: { search },
   } = props
-  const urlParams = new URLSearchParams(search)
-  const tag = urlParams.get('tag')
 
   return (
     <Layout>
@@ -45,20 +43,21 @@ const BlogPage = (props: IBlogPageProps) => {
         <h1>Blog</h1>
         <h3>Recent Posts</h3>
         <ul className="no-list-style">
-          {edges.slice(0, 5).map(
-            ({
-              node: {
-                id,
-                fields: { slug },
-                frontmatter: { tags, title, date },
-              },
-            }: INode) =>
-              (!tag || tags.indexOf(tag) !== -1) && (
+          {edges
+            .slice(0, 5)
+            .map(
+              ({
+                node: {
+                  id,
+                  fields: { slug },
+                  frontmatter: { title, date },
+                },
+              }: INode) => (
                 <li key={id}>
                   <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
                 </li>
               )
-          )}
+            )}
           <li>
             <Link to="/blog/all">View all posts >>></Link>
           </li>
