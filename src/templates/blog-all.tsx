@@ -1,4 +1,3 @@
-import URLSearchParams from '@ungap/url-search-params'
 import { graphql, Link } from 'gatsby'
 import React from 'react'
 
@@ -30,7 +29,7 @@ interface INode {
   }
 }
 
-const BlogPage = (props: IBlogPageProps) => {
+const BlogAll = (props: IBlogPageProps) => {
   const {
     data: {
       allMarkdownRemark: { edges, group },
@@ -42,42 +41,41 @@ const BlogPage = (props: IBlogPageProps) => {
 
   return (
     <Layout>
-      <div>
-        <h1>Blog</h1>
-        <h3>Recent Posts</h3>
-        <ul className="no-list-style">
-          {edges.slice(0, 5).map(
-            ({
-              node: {
-                id,
-                fields: { slug },
-                frontmatter: { tags, title, date },
-              },
-            }: INode) =>
-              (!tag || tags.indexOf(tag) !== -1) && (
-                <li key={id}>
-                  <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
-                </li>
-              )
-          )}
-          <li>
-            <Link to="/blog/all">View all posts >>></Link>
-          </li>
-        </ul>
-        <h3>Tags</h3>
-        <p>
-          {group.map(({ fieldValue }: { fieldValue: string }) => (
-            <Tag value={fieldValue} key={fieldValue} />
-          ))}
-        </p>
-        <Link to="/">Return Home</Link>
-      </div>
+      <h1>Blog</h1>
+      <h3>{tag ? 'Posts featuring "' + tag + '"' : 'All Posts'}</h3>
+      <ul className="no-list-style">
+        {edges.map(
+          ({
+            node: {
+              id,
+              fields: { slug },
+              frontmatter: { tags, title, date },
+            },
+          }: INode) =>
+            (!tag || tags.indexOf(tag) !== -1) && (
+              <li key={id}>
+                <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
+              </li>
+            )
+        )}
+      </ul>
+      {!tag && (
+        <>
+          <h3>Tags</h3>
+          <p>
+            {group.map(({ fieldValue }: { fieldValue: string }) => (
+              <Tag value={fieldValue} key={fieldValue} />
+            ))}
+          </p>
+        </>
+      )}
+      <Link to="/blog">Return to Blog Home</Link>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query IndexQuery {
+  query AllBlogPostQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
@@ -108,4 +106,4 @@ export const query = graphql`
   }
 `
 
-export default BlogPage
+export default BlogAll

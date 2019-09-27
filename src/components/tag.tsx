@@ -6,7 +6,7 @@ interface IProps {
 }
 
 const Tag = ({ value }: IProps) => (
-  <Link to={'/blog?tag=' + value} className="tag">
+  <Link to={'/blog/all?tag=' + value} className="tag">
     {'#' + value}
   </Link>
 )

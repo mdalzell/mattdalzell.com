@@ -47,6 +47,12 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
+    // Blog list all
+    createPage({
+      path: 'blog/all',
+      component: path.resolve('./src/templates/blog-all.tsx'),
+    })
+
     // Index page
     graphql(`
       {

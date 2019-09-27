@@ -105,6 +105,13 @@ exports[`BlogPage should match snapshot for default view 1`] = `
                 Test #2 - Mon Apr 01 2019
               </a>
             </li>
+            <li>
+              <a
+                href="/blog/all"
+              >
+                View all posts &gt;&gt;&gt;
+              </a>
+            </li>
           </ul>
           <h3>
             Tags
@@ -112,13 +119,13 @@ exports[`BlogPage should match snapshot for default view 1`] = `
           <p>
             <a
               className="tag"
-              href="/blog?tag=red"
+              href="/blog/all?tag=red"
             >
               #red
             </a>
             <a
               className="tag"
-              href="/blog?tag=blue"
+              href="/blog/all?tag=blue"
             >
               #blue
             </a>
