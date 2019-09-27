@@ -1,4 +1,3 @@
-import URLSearchParams from '@ungap/url-search-params'
 import { graphql, Link } from 'gatsby'
 import React from 'react'
 
