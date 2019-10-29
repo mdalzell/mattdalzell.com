@@ -15,11 +15,11 @@ skills:
     - title: DevOps/Infrastructure
       skills:
         - skill: AWS (EC2/S3)
-        - skill: 'Azure (Event Hub, Monitor)'
-        - skill: Jenkins
-        - skill: LaunchDarkly
+        - skill: Azure (Event Hubs/Monitor)
         - skill: Terraform
         - skill: Kafka
+        - skill: LaunchDarkly
+        - skill: Jenkins
     - title: Testing
       skills:
         - skill: Cypress
