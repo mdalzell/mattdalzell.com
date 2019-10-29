@@ -6,7 +6,7 @@ skills:
       skills:
         - skill: Typescript
         - skill: 'C#'
-        - skill: Javascript/ES6
+        - skill: Javascript/ES6+
     - title: Libraries & Frameworks
       skills:
         - skill: React
