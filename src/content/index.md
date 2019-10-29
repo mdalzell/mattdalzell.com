@@ -5,8 +5,8 @@ skills:
     - title: Languages
       skills:
         - skill: Typescript
-        - skill: Javascript/ES6
         - skill: 'C#'
+        - skill: Javascript/ES6
     - title: Libraries & Frameworks
       skills:
         - skill: React
@@ -15,9 +15,11 @@ skills:
     - title: DevOps/Infrastructure
       skills:
         - skill: AWS (EC2/S3)
-        - skill: Azure (Monitor)
+        - skill: 'Azure (Event Hub, Monitor)'
         - skill: Jenkins
         - skill: LaunchDarkly
+        - skill: Terraform
+        - skill: Kafka
     - title: Testing
       skills:
         - skill: Cypress
