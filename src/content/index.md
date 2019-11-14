@@ -31,9 +31,8 @@ skills:
         - skill: git
   title: Technical Skills
 ---
-
 I am a software engineer based out of Chicago, IL, with 6 years of
-professional experience in both frontend and backend web application
+professional experience in full stack web application
 development. Over the course of my career, I've worked on everything from
 large SaaS platforms to smaller apps for businesses across a variety of
 industries.
