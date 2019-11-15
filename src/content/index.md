@@ -7,13 +7,13 @@ skills:
         - skill: Typescript
         - skill: 'C#'
         - skill: Javascript/ES6+
-    - title: 'Libraries, Frameworks, & Platforms'
+    - title: Frameworks & Platforms
       skills:
         - skill: React
         - skill: .NET Core
         - skill: Electron
         - skill: Kafka
-    - title: Cloud
+    - title: Cloud Providers
       skills:
         - skill: AWS (EC2/S3)
         - skill: Azure (Event Hubs/Monitor)
