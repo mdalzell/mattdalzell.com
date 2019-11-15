@@ -7,17 +7,20 @@ skills:
         - skill: Typescript
         - skill: 'C#'
         - skill: Javascript/ES6+
-    - title: Libraries & Frameworks
+    - title: 'Libraries, Frameworks, & Platforms'
       skills:
         - skill: React
         - skill: .NET Core
         - skill: Electron
-    - title: DevOps/Infrastructure
+        - skill: Kafka
+    - title: Cloud
       skills:
         - skill: AWS (EC2/S3)
         - skill: Azure (Event Hubs/Monitor)
+    - title: DevOps
+      skills:
         - skill: Terraform
-        - skill: Kafka
+        - skill: Docker
         - skill: LaunchDarkly
         - skill: Jenkins
     - title: Testing
@@ -29,6 +32,7 @@ skills:
       skills:
         - skill: VS Code
         - skill: git
+        - skill: JIRA
   title: Technical Skills
 ---
 I am a software engineer based out of Chicago, IL, with 6 years of
