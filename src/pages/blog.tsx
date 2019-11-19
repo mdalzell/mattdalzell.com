@@ -41,6 +41,11 @@ const BlogPage = (props: IBlogPageProps) => {
     <Layout>
       <div>
         <h1>Blog</h1>
+        <p>
+          These blog posts are my own ill-conceived musings as a software
+          engineer, and do not represent the views of any employer or client,
+          past or present.
+        </p>
         <h3>Recent Posts</h3>
         <ul className="no-list-style">
           {edges
@@ -58,10 +63,10 @@ const BlogPage = (props: IBlogPageProps) => {
                 </li>
               )
             )}
-          <li>
-            <Link to="/blog/all">View all posts >>></Link>
-          </li>
         </ul>
+        <p>
+          <Link to="/blog/all">View all posts >>></Link>
+        </p>
         <h3>Tags</h3>
         <p>
           {group.map(({ fieldValue }: { fieldValue: string }) => (

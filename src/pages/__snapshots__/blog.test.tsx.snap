@@ -85,6 +85,9 @@ exports[`BlogPage should match snapshot for default view 1`] = `
           <h1>
             Blog
           </h1>
+          <p>
+            These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.
+          </p>
           <h3>
             Recent Posts
           </h3>
@@ -105,14 +108,14 @@ exports[`BlogPage should match snapshot for default view 1`] = `
                 Test #2 - Mon Apr 01 2019
               </a>
             </li>
-            <li>
-              <a
-                href="/blog/all"
-              >
-                View all posts &gt;&gt;&gt;
-              </a>
-            </li>
           </ul>
+          <p>
+            <a
+              href="/blog/all"
+            >
+              View all posts &gt;&gt;&gt;
+            </a>
+          </p>
           <h3>
             Tags
           </h3>
