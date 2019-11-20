@@ -1,14 +1,14 @@
 import React from 'react'
 
-interface SectionProps {
+interface ISectionProps {
   title: string
-  subsections: {
+  subsections: Array<{
     content: string
     heading: string
-  }[]
+  }>
 }
 
-const Section = (props: SectionProps) => {
+const Section = (props: ISectionProps) => {
   const { title, subsections } = props
   return (
     <section>
