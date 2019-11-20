@@ -6,8 +6,9 @@ import Section from '../components/section'
 const Home = ({ data }) => {
   const {
     html,
-    frontmatter: { intro, skills, title },
+    frontmatter: { skills, title },
   } = data.markdownRemark
+
   const subsections = skills.sections.map(section => {
     return {
       content: section.skills.map(({ skill }) => skill).join(', '),
@@ -21,7 +22,7 @@ const Home = ({ data }) => {
         <h1>{title}</h1>
       </div>
       <div className="intro" dangerouslySetInnerHTML={{ __html: html }} />
-      <Section sectionTitle={skills.title} subsections={subsections} />
+      <Section title={skills.title} subsections={subsections} />
     </Layout>
   )
 }

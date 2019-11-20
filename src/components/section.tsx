@@ -1,28 +1,27 @@
 import React from 'react'
 
-const Section = props => {
-  const { sectionTitle, subsections } = props
-  return (
-    <div>
-      <div className="page-header">
-        <h2>{sectionTitle}</h2>
-        <dl>
-          {subsections.map(subsection => (
-            <Subsection {...subsection} />
-          ))}
-        </dl>
-      </div>
-    </div>
-  )
+interface SectionProps {
+  title: string
+  subsections: {
+    content: string
+    heading: string
+  }[]
 }
 
-const Subsection = props => {
-  const { heading, content } = props
+const Section = (props: SectionProps) => {
+  const { title, subsections } = props
   return (
-    <React.Fragment key={heading}>
-      <dt>{heading}</dt>
-      <dd>{content}</dd>
-    </React.Fragment>
+    <section>
+      <h2>{title}</h2>
+      <dl>
+        {subsections.map(({ heading, content }) => (
+          <React.Fragment key={heading}>
+            <dt>{heading}</dt>
+            <dd>{content}</dd>
+          </React.Fragment>
+        ))}
+      </dl>
+    </section>
   )
 }
 

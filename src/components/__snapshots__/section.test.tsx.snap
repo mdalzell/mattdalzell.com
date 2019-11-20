@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section should match basic snapshot 1`] = `
+<section>
+  <h2>
+    Test Section
+  </h2>
+  <dl>
+    <dt>
+      thing1
+    </dt>
+    <dd>
+      some stuff
+    </dd>
+    <dt>
+      thing2
+    </dt>
+    <dd>
+      other stuff
+    </dd>
+  </dl>
+</section>
+`;
