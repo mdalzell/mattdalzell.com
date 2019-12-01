@@ -8,8 +8,8 @@ import Tag from '../components/tag'
 interface IBlogPageProps {
   data: {
     allMarkdownRemark: {
-      edges: INode[]
       group: Array<{ fieldValue: string }>
+      posts: INode[]
     }
   }
   location: {
@@ -33,7 +33,7 @@ interface INode {
 const BlogAll = (props: IBlogPageProps) => {
   const {
     data: {
-      allMarkdownRemark: { edges, group },
+      allMarkdownRemark: { group, posts },
     },
     location: { search },
   } = props
@@ -45,7 +45,7 @@ const BlogAll = (props: IBlogPageProps) => {
       <h1>Blog</h1>
       <h3>{tag ? 'Posts featuring "' + tag + '"' : 'All Posts'}</h3>
       <ul className="no-list-style">
-        {edges.map(
+        {posts.map(
           ({
             node: {
               id,
@@ -84,8 +84,7 @@ export const query = graphql`
         frontmatter: { draft: { ne: true } }
       }
     ) {
-      totalCount
-      edges {
+      posts: edges {
         node {
           id
           fields {
@@ -101,7 +100,6 @@ export const query = graphql`
       }
       group(field: frontmatter___tags) {
         fieldValue
-        totalCount
       }
     }
   }
