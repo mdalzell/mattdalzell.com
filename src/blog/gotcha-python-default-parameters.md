@@ -4,7 +4,7 @@ date: 2020-02-01T21:13:19.250Z
 tags:
   - GOTCHA
   - Python
-draft: true
+draft: false
 ---
 Programmers often encounter GOTCHAs: minute little intricacies of their language, framework, or environment that can totally derail productivity until they are resolved.  This series aims to document the GOTCHAs I've found as I've encountered them, both as a personal record for my sake and possibly to help out anyone reading this.
 
