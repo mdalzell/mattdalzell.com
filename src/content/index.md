@@ -34,4 +34,4 @@ skills:
         - skill: JIRA
   title: Technical Skills
 ---
-I am a software engineer based out of Chicago, IL, with 6 years of professional experience in full stack web application development. Over the course of my career, I've worked on everything from distributed microservices to B2B SaaS platforms to single page applications.  What I love about my profression is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
+I am a software engineer based out of Chicago, IL, with 6 years of professional experience in full stack web application development. Over the course of my career, I've worked on everything from distributed microservices to B2B SaaS platforms to single page applications.  What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
