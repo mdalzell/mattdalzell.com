@@ -2,6 +2,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import { DateUtil } from '../util'
 import NavMenu from './nav-menu'
 
 import '../styles/bootstrap-grid.min.css'
@@ -62,7 +63,7 @@ const Layout = ({ children }: IProps) => (
 const Footer = () => (
   <footer>
     <NavMenu />
-    <div>&copy; {new Date().getFullYear()} Matt Dalzell</div>
+    <div>&copy; {DateUtil.getCurrentYear()} Matt Dalzell</div>
   </footer>
 )
 

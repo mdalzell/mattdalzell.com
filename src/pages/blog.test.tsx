@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 
 // @ts-ignore
 import * as gatsby from '../../__mocks__/gatsby'
-
+import { DateUtil } from '../util'
 import BlogPage from './blog'
 
 interface IStaticQuery {
@@ -22,6 +22,7 @@ beforeEach(() => {
       },
     })
   )
+  DateUtil.getCurrentYear = jest.fn(() => 2019)
 })
 
 describe('BlogPage', () => {
