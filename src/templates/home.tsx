@@ -1,5 +1,5 @@
+import { graphql } from 'gatsby'
 import React from 'react'
-
 import Layout from '../components/layout'
 import Section from '../components/section'
 
@@ -11,7 +11,7 @@ const Home = ({ data }) => {
 
   const subsections = skills.sections.map(section => {
     return {
-      content: section.skills.map(({ skill }) => skill).join(', '),
+      content: section.description,
       heading: section.title,
     }
   })
@@ -36,9 +36,7 @@ export const query = graphql`
           title
           sections {
             title
-            skills {
-              skill
-            }
+            description
           }
         }
         title
