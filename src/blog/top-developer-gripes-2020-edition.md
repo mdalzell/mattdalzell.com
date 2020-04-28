@@ -1,5 +1,5 @@
 ---
-title: Things That Annoy Me (2020 Edition)
+title: Don't Stop Me Now
 date: 2020-03-20T01:56:41.487Z
 tags:
   - Terraform
@@ -7,7 +7,7 @@ tags:
   - Flutter
 draft: false
 ---
-Software engineers live for optimization and efficiency. It's the nature of our profession. So when something slows slows me down, especially when it seems unnecessary, I get frustrated.  Here is a rant of my top annoyances so far this year, in no particular order:
+Software engineers live for optimization and efficiency. It's the nature of our profession. So when something slows slows me down, especially when it seems unnecessary, I get frustrated.  Here is a rant of my top time sinks so far this year, in no particular order:
 
 **Mobile Emulators**
 
