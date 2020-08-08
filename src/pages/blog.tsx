@@ -58,14 +58,14 @@ const BlogPage = (props: IBlogPageProps) => {
                   frontmatter: { title, date },
                 },
               }: INode) => (
-                <li key={id}>
-                  <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
-                </li>
-              )
+                  <li key={id}>
+                    <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
+                  </li>
+                )
             )}
         </ul>
         <p>
-          <Link to="/blog/all">View all posts >>></Link>
+          <Link to="/blog/all">View all posts &gt;&gt;&gt;</Link>
         </p>
         <h3>Tags</h3>
         <p>
