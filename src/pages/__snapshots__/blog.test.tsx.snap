@@ -3,142 +3,136 @@
 exports[`BlogPage should match snapshot for default view 1`] = `
 <div>
   <div
-    className="container-fluid"
+    className="container"
   >
     <div
-      className="row"
+      className="hidden-sm"
     >
-      <div
-        className="col-sm-3 hidden-sm"
+      <ul
+        className="nav nav-list"
       >
-        <ul
-          className="nav nav-list"
-        >
-          <li>
-            <a
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li>
-            <a
-              href="/blog"
-            >
-              Blog
-            </a>
-          </li>
-          <li>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span>
-                <span
-                  className="glyphicon glyphicon-list-alt"
-                />
-                Resume
-              </span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/mdalzell"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span>
-                <span
-                  className="glyphicon glyphicon-wrench"
-                />
-                GitHub
-              </span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://stackoverflow.com/story/mattdalzell"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span>
-                <span
-                  className="glyphicon glyphicon-console"
-                />
-                Stack Overflow
-              </span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:contact@mattdalzell.com"
-            >
-              Email
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div
-        className="col-sm-9"
-      >
-        <div>
-          <h1>
-            Blog
-          </h1>
-          <p>
-            These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.
-          </p>
-          <h3>
-            Recent Posts
-          </h3>
-          <ul
-            className="no-list-style"
-          >
-            <li>
-              <a
-                href="/blogtest-1"
-              >
-                Test #1 - Wed May 01 2019
-              </a>
-            </li>
-            <li>
-              <a
-                href="/blog/test-2"
-              >
-                Test #2 - Mon Apr 01 2019
-              </a>
-            </li>
-          </ul>
-          <p>
-            <a
-              href="/blog/all"
-            >
-              View all posts &gt;&gt;&gt;
-            </a>
-          </p>
-          <h3>
-            Tags
-          </h3>
-          <p>
-            <a
-              className="tag"
-              href="/blog/all?tag=red"
-            >
-              #red
-            </a>
-            <a
-              className="tag"
-              href="/blog/all?tag=blue"
-            >
-              #blue
-            </a>
-          </p>
+        <li>
           <a
             href="/"
           >
-            Return Home
+            Home
           </a>
-        </div>
+        </li>
+        <li>
+          <a
+            href="/blog"
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span>
+              <span
+                className="glyphicon glyphicon-list-alt"
+              />
+              Resume
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/mdalzell"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span>
+              <span
+                className="glyphicon glyphicon-wrench"
+              />
+              GitHub
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://stackoverflow.com/story/mattdalzell"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span>
+              <span
+                className="glyphicon glyphicon-console"
+              />
+              Stack Overflow
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:contact@mattdalzell.com"
+          >
+            Email
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div>
+        <h1>
+          Blog
+        </h1>
+        <p>
+          These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.
+        </p>
+        <h3>
+          Recent Posts
+        </h3>
+        <ul
+          className="no-list-style"
+        >
+          <li>
+            <a
+              href="/blogtest-1"
+            >
+              Test #1 - Wed May 01 2019
+            </a>
+          </li>
+          <li>
+            <a
+              href="/blog/test-2"
+            >
+              Test #2 - Mon Apr 01 2019
+            </a>
+          </li>
+        </ul>
+        <p>
+          <a
+            href="/blog/all"
+          >
+            View all posts &gt;&gt;&gt;
+          </a>
+        </p>
+        <h3>
+          Tags
+        </h3>
+        <p>
+          <a
+            className="tag"
+            href="/blog/all?tag=red"
+          >
+            #red
+          </a>
+          <a
+            className="tag"
+            href="/blog/all?tag=blue"
+          >
+            #blue
+          </a>
+        </p>
+        <a
+          href="/"
+        >
+          Return Home
+        </a>
       </div>
     </div>
   </div>

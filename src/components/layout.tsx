@@ -5,7 +5,6 @@ import Helmet from 'react-helmet'
 import { DateUtil } from '../util'
 import NavMenu from './nav-menu'
 
-import '../styles/bootstrap-grid.min.css'
 import '../styles/index.css'
 
 interface IProps {
@@ -48,13 +47,11 @@ const Layout = ({ children }: IProps) => (
         )
       }}
     />
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-sm-3 hidden-sm">
-          <NavMenu />
-        </div>
-        <div className="col-sm-9">{children}</div>
+    <div className="container">
+      <div className="hidden-sm">
+        <NavMenu />
       </div>
+      <div>{children}</div>
     </div>
     <Footer />
   </div>
