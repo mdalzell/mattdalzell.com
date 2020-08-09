@@ -2,10 +2,10 @@ import React from 'react'
 
 interface ISectionProps {
   title: string
-  subsections: Array<{
+  subsections: {
     content: string
     heading: string
-  }>
+  }[]
 }
 
 const Section = (props: ISectionProps) => {

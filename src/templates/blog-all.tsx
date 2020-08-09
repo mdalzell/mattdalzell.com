@@ -8,7 +8,7 @@ import Tag from '../components/tag'
 interface IBlogPageProps {
   data: {
     allMarkdownRemark: {
-      group: Array<{ fieldValue: string }>
+      group: { fieldValue: string }[],
       posts: INode[]
     }
   }

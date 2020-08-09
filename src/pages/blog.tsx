@@ -8,7 +8,7 @@ interface IBlogPageProps {
   data: {
     allMarkdownRemark: {
       edges: INode[]
-      group: Array<{ fieldValue: string }>
+      group: { fieldValue: string }[]
     }
   }
   location: {
