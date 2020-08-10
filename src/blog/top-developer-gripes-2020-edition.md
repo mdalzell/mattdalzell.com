@@ -5,7 +5,7 @@ tags:
   - Terraform
   - CI/CD
   - Flutter
-draft: false
+draft: true
 ---
 Software engineers live for optimization and efficiency. It's the nature of our profession. So when something slows slows me down, especially when it seems unnecessary, I get frustrated.  Here is a rant of my top time sinks so far this year, in no particular order:
 
