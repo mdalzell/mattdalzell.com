@@ -3,7 +3,7 @@ title: Saving Time with Netlify CMS
 date: 2019-06-24T01:42:19.460Z
 tags:
   - Gatsby
-  - Netlify CMS
+  - NetlifyCMS
 draft: false
 ---
 When I first set out to blog about my experiences in software development, my goal was to have a new post out about every two weeks. In typical engineer fashion, I think I underestimated how long it would take to deliver that content. It seems like I've fallen into a pattern of writing a new post every month, if that.

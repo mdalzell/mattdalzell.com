@@ -2,7 +2,7 @@
 title: 2019 Goals
 date: '2019-01-03'
 tags:
-  - Career Development
+  - PersonalDevelopment
   - Privacy
   - Sustainability
 draft: false

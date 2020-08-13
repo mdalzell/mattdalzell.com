@@ -1,7 +1,7 @@
 ---
 title: "Thanksgiving"
 date: "2018-11-18"
-tags: ["Open Source", "Stack Overflow", "TypeScript"]
+tags: ["OpenSource", "StackOverflow", "TypeScript"]
 ---
 With Thanksgiving just around the corner, there is no more appropriate time for a corny blog post about what I am thankful for.  To fit within my ongoing theme, I'm not going to include the usual suspects (family, friends, etc.), and instead focus on what I'm thankful for in the realm of software engineering in 2018.
 

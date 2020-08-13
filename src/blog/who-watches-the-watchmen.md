@@ -2,9 +2,9 @@
 title: Who Watches the Watchmen?
 date: 2019-09-24T00:20:38.756Z
 tags:
-  - Unit Tests
+  - UnitTests
   - Testing
-  - Code Review
+  - CodeReview
 draft: false
 ---
 One of the most common areas of feedback in code review is test coverage.  Software engineers usually strive for 100% coverage, and while non-trivial projects rarely achieve that ideal target, it is generally considered best practice to come as close as possible.

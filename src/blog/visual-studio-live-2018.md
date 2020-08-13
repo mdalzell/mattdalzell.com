@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Live 2018"
 date: "2018-09-23"
-tags: ["Conference",  "Visual Studio"]
+tags: ["Conference"]
 ---
 This past week I attended the Visual Studio Live conference in my home town of Chicago.  For three days, I attended different sessions on tooling, unit testing patterns, and a host of other topics.  While the conference was mostly focused on the Microsoft tech stack, there were a handful of other sessions for either different platforms or subjects that were more abstract.  
 

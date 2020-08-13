@@ -1,7 +1,7 @@
 ---
 title: "\"Clean Architecture\" Review"
 date: "2018-09-17"
-tags: ["Book Review",  "Architecture"]
+tags: ["BookReview",  "Architecture"]
 ---
 
 I'm a fan of Robert C. Martin, AKA Uncle Bob, and his famous book, *Clean Code*.  Generally I favor books on software engineering that will always be relevant regardless of the current technology trends, and Uncle Bob's insights typically go beyond specific languages or frameworks.  So when I saw that he had a new entry to his series entitled *Clean Architecture*, I went to an actual physical book store (in 2018!) and picked up a copy.

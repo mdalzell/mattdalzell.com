@@ -1,7 +1,7 @@
 ---
 title: "When In Doubt, Overcommunicate"
 date: "2018-11-08"
-tags: ["Soft Skills"]
+tags: ["SoftSkills"]
 ---
 Controversial opinion time: the single most important skill for a software engineer in most business environments is the ability to communicate.  A working knowledge of the tech stack is necessary, as well as a general aptitude towards critical thinking, but what really makes or breaks a developer is their ability to share information with both technical and non-technical people.  This skill makes an average developer great, an above average developer a rockstar (or ninja, or whatever), and even helps those who might not be the strongest coders become useful contributors to the team.
 

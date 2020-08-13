@@ -1,7 +1,7 @@
 ---
 title: "Cowboys and Farmers"
 date: "2018-12-09"
-tags: ["Career Development", "Refactoring"]
+tags: ["Refactoring"]
 ---
 When it comes to software engineering, I believe there are two different mindsets an individual can have: some take the disciplined approach of farmers, others adopt the more free-wheeling attitude of cowboys.
 

@@ -1,7 +1,7 @@
 ---
 title: '2018 Year in Review'
 date: '2018-12-28'
-tags: ['Career Development', 'Gatsby', 'Conference']
+tags: ['PersonalDevelopment', 'Gatsby', 'Conference']
 ---
 
 The holiday leftovers are starting to disappear from the fridge and weight-loss commercials are being shown constantly on television...this can only mean one thing: the year is coming to a close. Before 2018 wraps up next week, I want to reflect on everything I've accomplished in the past year as a software engineer. Here's some of the major highlights:

@@ -2,7 +2,7 @@
 title: How To Be A 10x Developer
 date: 2020-04-25T18:03:31.874Z
 tags:
-  - Personal Development
+  - PersonalDevelopment
   - Teamwork
 draft: false
 ---

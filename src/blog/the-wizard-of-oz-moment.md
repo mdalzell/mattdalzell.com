@@ -1,7 +1,7 @@
 ---
 title: 'The "Wizard of Oz" Moment'
 date: '2019-03-17'
-tags: ['Personal Growth']
+tags: ['PersonalDevelopment']
 ---
 
 In _The Wizard of Oz_, Dorothy an co. are shocked when Toto pulls back the curtain, revealing the all-powerful wizard to just be an ordinary old man. The ruler of Oz whom they respected and feared turned out to just be another guy from Kansas.

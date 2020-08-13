@@ -2,7 +2,7 @@
 title: 2019 Year in Review
 date: 2019-12-28T20:55:40.547Z
 tags:
-  - Career Development
+  - PersonalDevelopment
   - Privacy
   - Cloud
   - DevOps
