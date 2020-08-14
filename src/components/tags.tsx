@@ -11,7 +11,7 @@ const Tags = ({ values }: IProps) => <>
     <h3>Tags</h3>
     <ul className="tags">
         {values.map(value => (
-            <li>
+            <li key={value}>
                 <Link to={'/blog/all?tag=' + value}>
                     {'#' + value}
                 </Link>
