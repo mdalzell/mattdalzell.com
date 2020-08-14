@@ -3,7 +3,7 @@ import { graphql, Link } from 'gatsby'
 import React from 'react'
 
 import Layout from '../components/layout'
-import Tag from '../components/tag'
+import Tags from '../components/tags'
 
 interface IBlogPageProps {
   data: {
@@ -61,16 +61,9 @@ const BlogAll = (props: IBlogPageProps) => {
         )}
       </ul>
       {!tag && (
-        <>
-          <h3>Tags</h3>
-          <p>
-            {group.map(({ fieldValue }: { fieldValue: string }) => (
-              <Tag value={fieldValue} key={fieldValue} />
-            ))}
-          </p>
-        </>
+        <Tags values={group.map(({ fieldValue }) => fieldValue)} />
       )}
-      <Link to="/blog">Return to Blog Home</Link>
+      <Link to="/blog">Return to Blog</Link>
     </Layout>
   )
 }

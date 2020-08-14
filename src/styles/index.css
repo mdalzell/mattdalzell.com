@@ -485,7 +485,14 @@ footer .nav li:last-child {
   list-style-type: none;
   padding-left: 0;
 }
-.tag {
+.tags {
+  list-style-type: none;
+  padding: 0;
+}
+.tags li {
+  display: inline-block;
+}
+.tags a {
   color: #f92672;
   margin: 0 15px 15px 0;
   text-decoration: none;

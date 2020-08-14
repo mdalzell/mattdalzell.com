@@ -2,9 +2,9 @@ import { graphql, Link } from 'gatsby'
 import React from 'react'
 
 import Layout from '../components/layout'
-import Tag from '../components/tag'
+import Tags from '../components/tags'
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data }: { data: { markdownRemark: { frontmatter: { title: string, date: string, tags: string[] }, html: string } } }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -13,11 +13,7 @@ const BlogPost = ({ data }) => {
         <h3>{post.frontmatter.date}</h3>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <p>~ MAD</p>
-        <p>
-          {post.frontmatter.tags.map(tag => (
-            <Tag value={tag} key={tag} />
-          ))}
-        </p>
+        <Tags values={post.frontmatter.tags} />
         <Link to="/blog">Return to Blog</Link>
       </div>
     </Layout>
