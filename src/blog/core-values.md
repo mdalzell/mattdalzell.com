@@ -1,0 +1,14 @@
+---
+title: Core Values
+date: 2020-08-16T19:57:36.171Z
+tags:
+  - Teamwork
+draft: true
+---
+Most companies define core values: guiding principles that influence the culture of the company.  I've worked in a few different environments, sometimes these values are the foundation of a great culture, but they can also be irrelevant at best and counterproductive at worst. 
+
+Sometimes, I like to think about what values I would try to instill if I was a leader of an engineering department or company.  Here are a few that I think would both create an awesome work environment and also attract exceptional talent:
+
+1. *Nobody Wins Unless Everybody Wins* - This quote is commonly attributed to Bruce Springsteen, and if I was a boss I would take a page from The Boss and make this my first core value.  I don't care how financially successful the business is; if it's built on taking unfair advantage of any of those who contribute to that financial success, that business has failed.  Leadership and sales don't get to leave at noon on Friday while engineering is working until 2am to meet arbitrary deadlines.  Engineering has a responsibility to ship quality code, if they fail to do that sales and marketing shouldn't be expected to work harder to sell an inferior product.  If any part of the business is set up to fail, then the business as a whole has failed.  We're all in this together; success isn't attained until everyone is successful.  
+2. *Work Smart, Play Smart* - So many businesses claim to "Work Hard, Play Hard."  At this point in my career, I consider this a red flag.  Oftentimes, this axiom indicates two things: a) Being overwhelmed at work is the norm, requiring extra effort from workers and b) When not working overtime, you'll be expected to go out drinking with your coworkers. For the first point, I would want my employees to work smart, not hard.  Working late and answering emails at all hours is not something to be celebrated; in fact I think it's a business failure per my first core value.  Employees should focus on maximizing their output so they don't have to work hard.  Automate all the things!  If work feels easy, you're probably doing it right.  As far as playing smart instead of "hard," I would encourage a culture that extends beyond happy hours and drinking.  Don't get me wrong, I enjoy a good beer with friends and colleagues, but if your company culture is just drinking, then you don't have a culture.  There are so many possibilities for inclusive group activities in major cities (architecture tours, painting classes, the list goes on), and I would opt for those over a paid trip to the bar any day.
+3. *Your Family Is Your Family* -
