@@ -80,9 +80,13 @@ exports[`BlogPage should match snapshot for default view 1`] = `
         <h1>
           Blog
         </h1>
-        <p>
-          These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.
-        </p>
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.",
+            }
+          }
+        />
         <h3>
           Recent Posts
         </h3>

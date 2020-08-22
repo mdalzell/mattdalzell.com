@@ -44,3 +44,8 @@ collections:
                   },
                 ],
             }
+      - label: Blog Page
+        name: blog
+        file: src/content/blog.md
+        fields: 
+          - { name: body, label: Body Text, widget: markdown }

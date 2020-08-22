@@ -80,6 +80,16 @@ exports.createPages = ({ graphql, actions }) => {
             },
           })
         }
+        else if (node.fields.slug === '/blog/') {
+          createPage({
+            path: '/blog',
+            component: path.resolve(`./src/templates/blog.tsx`),
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              slug: node.fields.slug,
+            },
+          })
+        }
       })
     })
 

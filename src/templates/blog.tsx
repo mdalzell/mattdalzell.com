@@ -10,6 +10,7 @@ interface IBlogPageProps {
       edges: INode[]
       group: { fieldValue: string }[]
     }
+    markdownRemark: { html: string }
   }
   location: {
     search: string
@@ -33,6 +34,7 @@ const BlogPage = (props: IBlogPageProps) => {
   const {
     data: {
       allMarkdownRemark: { edges, group },
+      markdownRemark: { html },
     },
     location: { search },
   } = props
@@ -41,11 +43,7 @@ const BlogPage = (props: IBlogPageProps) => {
     <Layout>
       <div>
         <h1>Blog</h1>
-        <p>
-          These blog posts are my own ill-conceived musings as a software
-          engineer, and do not represent the views of any employer or client,
-          past or present.
-        </p>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
         <h3>Recent Posts</h3>
         <ul className="no-list-style">
           {edges
@@ -75,7 +73,7 @@ const BlogPage = (props: IBlogPageProps) => {
 }
 
 export const query = graphql`
-  query IndexQuery {
+  query BlogPageQuery($slug: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
@@ -102,6 +100,9 @@ export const query = graphql`
         fieldValue
         totalCount
       }
+    }
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
     }
   }
 `

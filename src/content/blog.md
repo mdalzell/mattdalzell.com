@@ -1,0 +1,1 @@
+These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.
