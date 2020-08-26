@@ -75,7 +75,6 @@ exports.createPages = ({ graphql, actions }) => {
             path: '/',
             component: path.resolve(`./src/templates/home.tsx`),
             context: {
-              // Data passed to context is available in page queries as GraphQL variables.
               slug: node.fields.slug,
             },
           })
@@ -85,7 +84,15 @@ exports.createPages = ({ graphql, actions }) => {
             path: '/blog',
             component: path.resolve(`./src/templates/blog.tsx`),
             context: {
-              // Data passed to context is available in page queries as GraphQL variables.
+              slug: node.fields.slug,
+            },
+          })
+        }
+        else if (node.fields.slug === '/about/') {
+          createPage({
+            path: '/about',
+            component: path.resolve(`./src/templates/about.tsx`),
+            context: {
               slug: node.fields.slug,
             },
           })
