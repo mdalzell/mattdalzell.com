@@ -1,15 +1,15 @@
 ---
-title: Core Values
+title: My Core Values
 date: 2020-08-16T19:57:36.171Z
 tags:
   - Teamwork
-draft: true
+draft: false
 ---
-Most companies establish core values: the guiding principles that influence the culture of the company.  Sometimes these values are the foundation of a great work environment, but other times can be irrelevant at best and counterproductive at worst. 
+Most companies establish **core values**: the guiding principles that influence the culture of the company.  Sometimes these values are the foundation of a great work environment, but other times they can be irrelevant at best and counterproductive at worst. 
 
-Here are a few values that I would implement in my company to both foster a healthy workplace and also attract exceptional talent:
+If I were in a position of influence within a company, here are a few values that I would implement to both foster a healthy workplace and also attract exceptional talent:
 
 1. *Nobody Wins Unless Everybody Wins* - This quote is commonly attributed to Bruce Springsteen, and if I was a boss I would take a page from The Boss and make this my first core value.  If a business is built on taking unfair advantage of any of those workers who contribute, that business has failed regardless of financial success.  Leadership doesn't get to leave at noon on Friday while engineering is working until 2am to meet arbitrary deadlines. We're all in this together, and success isn't achieved until everyone is successful.  
 2. *Quality Over Quantity* - When it comes to software, more != better.  More features means more maintenance, more engineers means more communication overhead, and more code means more opportunities for bugs.  The key advantage of the software is that quantity rarely determines success, and a lean product with excellent quality can carve out its niche.  Similarly, a handful of skilled engineers who understand the problem space well can ship code faster than whole organizations with a greater headcount.  For these reasons, I would always prioritize high quality in all aspects of the business, even if it means sacrificing in quantity.
-3. *Work Smart, Not Hard* - So many businesses claim to "Work Hard, Play Hard."  At this point in my career, I consider this a red flag.  Oftentimes, this axiom indicates a culture where overworking is the norm and the only social activities are semi-mandatory happy hours. If I had a company, I would want my employees to work smart, not hard.  Working late and answering emails at all hours is not something to be celebrated.  Employees should focus on maximizing their output so they don't have to work hard.  If work feels easy, you're probably doing it right.  
+3. *Work Smart, Not Hard* - So many businesses claim to "Work Hard, Play Hard."  At this point in my career, I consider this a red flag.  Oftentimes, this axiom indicates a culture where overworking is the norm and the only social activities are semi-mandatory happy hours. If I had a company, I would want my employees to work smart, not hard.  Working late and answering emails at all hours is not something to be celebrated.  Employees should focus on maximizing their output through planning and automation so that they don't have to work hard.  If work feels easy, you're probably doing it right.  
 4. *Your Family Is Your Family* - Many companies like to claim "we're a family."  Unfortunately, even if the intentions truly are sincere, due to the nature of work in our society corporations can't treat anyone like family.  Your family wouldn't lay you off after one bad quarter or ask you to pull overtime caused by lack of planning.  This doesn't mean corporations are necessarily wrong with these actions, sometimes layoffs or overtime are necessary for the survival of the company.  This just means that the relationship between a company and its employees is a business transaction; it doesn't have the deeper, emotional connection that family has unless you are either the founder or early stage employee. Spend your evening and weekends with your real family and friends, work will always be there on Monday.
