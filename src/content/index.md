@@ -1,5 +1,5 @@
 ---
-title: "Hi, I'm Matt Dalzell"
+title: Hi, I'm Matt Dalzell
 skills:
   sections:
     - title: Languages
@@ -7,7 +7,8 @@ skills:
     - title: Frameworks & Platforms
       description: React, .NET Core, NodeJS, Flutter, Electron
     - title: Cloud Providers
-      description: AWS (EC2/S3), Azure (Event Hubs/Monitor)
+      description: AWS (EC2 / S3 / CloudFront / Certificate Manager), Azure (Event
+        Hubs / Monitor)
     - title: DevOps
       description: Terraform, Docker, LaunchDarkly, Jenkins
     - title: Testing
