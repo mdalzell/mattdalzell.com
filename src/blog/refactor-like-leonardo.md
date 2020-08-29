@@ -1,7 +1,10 @@
 ---
-title: "Refactor Like Leonardo"
-date: "2018-09-30"
-tags: ["Refactoring"]
+title: Refactor Like Leonardo
+date: 2018-09-30
+tags:
+  - Refactoring
+draft: false
+featured: true
 ---
 Recently I finished reading *Leonardo Da Vinci* by acclaimed biographer Walter Isaacson.  I initially challenged myself to complete [Bill Gate's 2018 summer reading list](https://www.gatesnotes.com/About-Bill-Gates/Summer-Books-2018), but unfortunately this was the only one I was able to knock out before the first 50 degree day in Chicago.  Still, the book was a worthy summer read, not only to learn about the life of one of history's most prominent geniuses, but also to see what lessons could be learned from his habits.  One particularly interesting parallel I found was that Leonardo would constantly "refactor" his work, much like how software engineers refactor their code.
 
