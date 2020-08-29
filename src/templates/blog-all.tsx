@@ -30,7 +30,7 @@ interface INode {
   }
 }
 
-const BlogAll = (props: IBlogPageProps) => {
+const BlogAll = (props: IBlogPageProps): JSX.Element => {
   const {
     data: {
       allMarkdownRemark: { group, posts },

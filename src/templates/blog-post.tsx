@@ -4,7 +4,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Tags from '../components/tags'
 
-const BlogPost = ({ data }: { data: { markdownRemark: { frontmatter: { title: string, date: string, tags: string[] }, html: string } } }) => {
+const BlogPost = ({ data }: { data: { markdownRemark: { frontmatter: { title: string, date: string, tags: string[] }, html: string } } }): JSX.Element => {
   const post = data.markdownRemark
   return (
     <Layout>

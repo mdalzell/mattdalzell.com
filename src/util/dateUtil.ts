@@ -1,5 +1,5 @@
 export class DateUtil {
-  public static getCurrentYear = () => {
+  public static getCurrentYear = (): number => {
     return new Date().getFullYear()
   }
 }

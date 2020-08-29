@@ -3,7 +3,22 @@ import React from 'react'
 import Layout from '../components/layout'
 import Section from '../components/section'
 
-const Home = ({ data }) => {
+interface IHomeData {
+  data: {
+    markdownRemark: {
+      html: string
+      frontmatter: {
+        skills: {
+          sections: { description: string, title: string }[]
+          title: string
+        },
+        title: string
+      }
+    }
+  }
+}
+
+const Home = ({ data }: IHomeData): JSX.Element => {
   const {
     html,
     frontmatter: { skills, title },

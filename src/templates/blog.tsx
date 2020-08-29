@@ -30,13 +30,12 @@ interface INode {
   }
 }
 
-const BlogPage = (props: IBlogPageProps) => {
+const BlogPage = (props: IBlogPageProps): JSX.Element => {
   const {
     data: {
       allMarkdownRemark: { edges, group },
       markdownRemark: { html },
     },
-    location: { search },
   } = props
 
   return (
