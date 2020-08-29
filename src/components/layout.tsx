@@ -11,7 +11,17 @@ interface IProps {
   children: React.ReactNode
 }
 
-const Layout = ({ children }: IProps) => (
+interface ISiteMetaData {
+  site: {
+    siteMetadata: {
+      description: string;
+      keywords: string;
+      title: string;
+    };
+  };
+}
+
+const Layout = ({ children }: IProps): JSX.Element => (
   <div>
     <StaticQuery
       query={graphql`
@@ -25,7 +35,7 @@ const Layout = ({ children }: IProps) => (
           }
         }
       `}
-      render={({ site }) => {
+      render={({ site }: ISiteMetaData) => {
         const {
           siteMetadata: { description, keywords, title },
         } = site

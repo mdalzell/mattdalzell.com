@@ -8,7 +8,7 @@ interface ISectionProps {
   }[]
 }
 
-const Section = (props: ISectionProps) => {
+const Section = (props: ISectionProps): JSX.Element => {
   const { title, subsections } = props
   return (
     <section>

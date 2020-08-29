@@ -7,7 +7,7 @@ interface IProps {
     values: string[]
 }
 
-const Tags = ({ values }: IProps) => <>
+const Tags = ({ values }: IProps): JSX.Element => <>
     <h3>Tags</h3>
     <ul className="tags">
         {values.map(value => (

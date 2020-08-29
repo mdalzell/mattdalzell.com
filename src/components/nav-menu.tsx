@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
-const NavMenu = () => {
+const NavMenu = (): JSX.Element => {
   return (
     <ul className="nav nav-list">
       <li>
