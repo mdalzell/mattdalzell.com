@@ -9,6 +9,9 @@ interface IBlogPageProps {
     allMarkdownRemark: {
       edges: INode[]
       group: { fieldValue: string }[]
+      featuredPosts: {
+        edges: INode[]
+      }[]
     }
     markdownRemark: { html: string }
   }
@@ -30,10 +33,26 @@ interface INode {
   }
 }
 
+const buildBlogLinks = ({
+  node: {
+    id,
+    fields: { slug },
+    frontmatter: { title, date },
+  },
+}: INode) => (
+  <li key={id}>
+    <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
+  </li>
+)
+
 const BlogPage = (props: IBlogPageProps): JSX.Element => {
   const {
     data: {
-      allMarkdownRemark: { edges, group },
+      allMarkdownRemark: {
+        edges,
+        group,
+        featuredPosts: [{ edges: featuredPostLinks }],
+      },
       markdownRemark: { html },
     },
   } = props
@@ -43,23 +62,18 @@ const BlogPage = (props: IBlogPageProps): JSX.Element => {
       <div>
         <h1>Blog</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
+        {featuredPostLinks && featuredPostLinks.length > 0 && (
+          <>
+            <h3>Featured Posts</h3>
+            <ul className="no-list-style">
+              {featuredPostLinks.map(buildBlogLinks)}
+            </ul>
+          </>
+        )}
+
         <h3>Recent Posts</h3>
         <ul className="no-list-style">
-          {edges
-            .slice(0, 5)
-            .map(
-              ({
-                node: {
-                  id,
-                  fields: { slug },
-                  frontmatter: { title, date },
-                },
-              }: INode) => (
-                  <li key={id}>
-                    <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
-                  </li>
-                )
-            )}
+          {edges.slice(0, 5).map(buildBlogLinks)}
         </ul>
         <p>
           <Link to="/blog/all">View all posts &gt;&gt;&gt;</Link>
@@ -98,6 +112,22 @@ export const query = graphql`
       group(field: frontmatter___tags) {
         fieldValue
         totalCount
+      }
+      featuredPosts: group(field: frontmatter___featured) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              tags
+              title
+              date(formatString: "DD MMMM, YYYY")
+              draft
+            }
+          }
+        }
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
