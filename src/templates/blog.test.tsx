@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer'
 // @ts-ignore
 import * as gatsby from '../../__mocks__/gatsby'
 import { DateUtil } from '../util'
-import BlogPage from '../templates/blog'
+import BlogPage from './blog'
 
 interface IStaticQuery {
   render: (object: {
@@ -57,9 +57,15 @@ describe('BlogPage', () => {
           { fieldValue: 'red', totalCount: 2 },
           { fieldValue: 'blue', totalCount: 1 },
         ],
+        featuredPosts: [
+          {
+            edges: [],
+          },
+        ],
       },
       markdownRemark: {
-        html: 'These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.',
+        html:
+          'These blog posts are my own ill-conceived musings as a software engineer, and do not represent the views of any employer or client, past or present.',
       },
     },
     location: {
