@@ -5,7 +5,7 @@ tags:
   - PersonalDevelopment
   - Teamwork
 draft: false
-featured: true
+featured: false
 ---
 Within programmer culture, there exists the legend of the 10x software developer: an engineer so effective that he or she single-handedly has the output of ten "normal" engineers.  A developer with this level of expertise can move mountains and ship projects that would fail in the hands of an average team.  These developers are the heroes of their organizations, and companies fight each other to recruit and retain this level of talent.
 
