@@ -9,10 +9,8 @@ interface IBlogPageProps {
     allMarkdownRemark: {
       edges: INode[]
       group: { fieldValue: string }[]
-      featuredPosts: {
-        edges: INode[]
-      }[]
     }
+    featuredPosts: { edges: INode[] }
     markdownRemark: { html: string }
   }
   location: {
@@ -48,11 +46,8 @@ const buildBlogLinks = ({
 const BlogPage = (props: IBlogPageProps): JSX.Element => {
   const {
     data: {
-      allMarkdownRemark: {
-        edges,
-        group,
-        featuredPosts: [{ edges: featuredPostLinks }],
-      },
+      allMarkdownRemark: { edges, group },
+      featuredPosts: { edges: featuredPostLinks },
       markdownRemark: { html },
     },
   } = props
@@ -113,19 +108,22 @@ export const query = graphql`
         fieldValue
         totalCount
       }
-      featuredPosts: group(field: frontmatter___featured) {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
-              title
-              date(formatString: "DD MMMM, YYYY")
-              draft
-            }
+    }
+    featuredPosts: allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { featured: { eq: true } } }
+    ) {
+      edges {
+        node {
+          id
+          fields {
+            slug
+          }
+          frontmatter {
+            tags
+            title
+            date(formatString: "DD MMMM, YYYY")
+            draft
           }
         }
       }
