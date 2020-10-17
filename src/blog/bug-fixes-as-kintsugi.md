@@ -5,7 +5,7 @@ tags:
   - Bugs
   - Refactoring
 draft: false
-featured: false
+featured: true
 ---
 Recently, I learned about the Japanese tradition of [kintsugi](https://en.wikipedia.org/wiki/Kintsugi), where broken pottery is repaired using gold or another rare metal.  The meaning of this philosophy is that flaws and imperfections are not something to be hidden, but in fact contribute to the history and beauty of the object.  Not only did discovering this art explain a whole lot about [the Death Cab for Cutie album with the same name](https://en.wikipedia.org/wiki/Kintsugi_(album)), but it also made me think about how this mindset can be applied to bug fixing in software engineering.
 
