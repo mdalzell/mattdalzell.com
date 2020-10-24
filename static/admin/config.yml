@@ -54,3 +54,8 @@ collections:
         file: src/content/blog.md
         fields:
           - { name: body, label: Body Text, widget: markdown }
+      - label: About Page
+        name: about
+        file: src/content/about.md
+        fields:
+          - { name: body, label: Copy, widget: markdown }

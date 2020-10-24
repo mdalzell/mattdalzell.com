@@ -57,11 +57,9 @@ describe('BlogPage', () => {
           { fieldValue: 'red', totalCount: 2 },
           { fieldValue: 'blue', totalCount: 1 },
         ],
-        featuredPosts: [
-          {
-            edges: [],
-          },
-        ],
+      },
+      featuredPosts: {
+        edges: [],
       },
       markdownRemark: {
         html:
