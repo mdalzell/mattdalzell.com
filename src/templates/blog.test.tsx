@@ -1,27 +1,10 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 
-// @ts-ignore
-import * as gatsby from '../../__mocks__/gatsby'
 import { DateUtil } from '../util'
 import BlogPage from './blog'
 
-interface IStaticQuery {
-  render: (object: {
-    site: { siteMetadata: { title: string } }
-  }) => React.ReactNode
-}
-
 beforeEach(() => {
-  gatsby.StaticQuery.mockImplementationOnce(({ render }: IStaticQuery) =>
-    render({
-      site: {
-        siteMetadata: {
-          title: `Matt Dalzell - Ace Programmer`,
-        },
-      },
-    })
-  )
   DateUtil.getCurrentYear = jest.fn(() => 2019)
 })
 
