@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BlogPage should match snapshot for default view 1`] = `
-<div>
+Array [
   <div
     className="container"
   >
@@ -150,7 +150,7 @@ exports[`BlogPage should match snapshot for default view 1`] = `
         </a>
       </div>
     </div>
-  </div>
+  </div>,
   <footer>
     <ul
       className="nav nav-list"
@@ -230,6 +230,6 @@ exports[`BlogPage should match snapshot for default view 1`] = `
       2019
        Matt Dalzell
     </div>
-  </footer>
-</div>
+  </footer>,
+]
 `;
