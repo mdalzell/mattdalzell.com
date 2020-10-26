@@ -59,3 +59,13 @@ collections:
         file: src/content/about.md
         fields:
           - { name: body, label: Copy, widget: markdown }
+  - name: settings
+    label: Settings
+    files:
+      - label: General Settings
+        name: general
+        file: src/settings/settings.json
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: keywords, label: Keywords, widget: string }
+          - { name: description, label: Description, widget: text }
