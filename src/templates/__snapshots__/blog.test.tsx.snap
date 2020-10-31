@@ -34,15 +34,20 @@ Array [
         </li>
         <li>
           <a
+            href="https://files.mattdalzell.com/resume.pdf"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span>
-              <span
-                className="glyphicon glyphicon-list-alt"
-              />
-              Resume
-            </span>
+            Resume
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:contact@mattdalzell.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Email
           </a>
         </li>
         <li>
@@ -51,12 +56,7 @@ Array [
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span>
-              <span
-                className="glyphicon glyphicon-wrench"
-              />
-              GitHub
-            </span>
+            Github
           </a>
         </li>
         <li>
@@ -65,19 +65,16 @@ Array [
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span>
-              <span
-                className="glyphicon glyphicon-console"
-              />
-              Stack Overflow
-            </span>
+            Stack Overflow
           </a>
         </li>
         <li>
           <a
-            href="mailto:contact@mattdalzell.com"
+            href="https://www.hackerrank.com/mdalzell"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            Email
+            HackerRank
           </a>
         </li>
       </ul>
@@ -178,15 +175,20 @@ Array [
       </li>
       <li>
         <a
+          href="https://files.mattdalzell.com/resume.pdf"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span>
-            <span
-              className="glyphicon glyphicon-list-alt"
-            />
-            Resume
-          </span>
+          Resume
+        </a>
+      </li>
+      <li>
+        <a
+          href="mailto:contact@mattdalzell.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Email
         </a>
       </li>
       <li>
@@ -195,12 +197,7 @@ Array [
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span>
-            <span
-              className="glyphicon glyphicon-wrench"
-            />
-            GitHub
-          </span>
+          Github
         </a>
       </li>
       <li>
@@ -209,19 +206,16 @@ Array [
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span>
-            <span
-              className="glyphicon glyphicon-console"
-            />
-            Stack Overflow
-          </span>
+          Stack Overflow
         </a>
       </li>
       <li>
         <a
-          href="mailto:contact@mattdalzell.com"
+          href="https://www.hackerrank.com/mdalzell"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          Email
+          HackerRank
         </a>
       </li>
     </ul>
