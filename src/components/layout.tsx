@@ -7,13 +7,14 @@ import { Settings } from '../settings/settings'
 import settings from '../settings/settings.json'
 
 import '../styles/index.css'
+import { NavItem } from '../settings/navItem'
 
 interface IProps {
   children: React.ReactNode
 }
 
 const Layout = ({ children }: IProps): JSX.Element => {
-  const { description, keywords, title } = settings as Settings
+  const { description, keywords, title, menu } = settings as Settings
   return (
     <>
       <Helmet
@@ -31,18 +32,18 @@ const Layout = ({ children }: IProps): JSX.Element => {
       ></Helmet>
       <div className="container">
         <div className="hidden-sm">
-          <NavMenu />
+          <NavMenu navItems={menu} />
         </div>
         <div>{children}</div>
       </div>
-      <Footer />
+      <Footer navItems={menu} />
     </>
   )
 }
 
-const Footer = () => (
+const Footer = ({ navItems }: { navItems: NavItem[] }) => (
   <footer>
-    <NavMenu />
+    <NavMenu navItems={navItems} />
     <div>&copy; {DateUtil.getCurrentYear()} Matt Dalzell</div>
   </footer>
 )

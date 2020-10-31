@@ -1,5 +1,15 @@
 {
   "description": "I am a software engineer with seven years of professional experience in full stack web application and mobile development. Over the course of my career, I've worked on everything from distributed microservices to single page applications for businesses across a variety of industries. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.",
   "keywords": "Matt Dalzell, Dalzell, software engineer, software, programmer, blog, Chicago, React",
-  "title": "Matt Dalzell - Ace Programmer"
+  "title": "Matt Dalzell - Ace Programmer",
+  "menu": [
+    {"title": "Home", "url": "/", "external": false}, 
+    {"title": "About", "url": "/about", "external": false}, 
+    {"title": "Blog", "url": "/blog", "external": false}, 
+    {"title": "Resume", "url": "https://files.mattdalzell.com/resume.pdf", "external": true}, 
+    {"title": "Email", "url": "mailto:contact@mattdalzell.com", "external": true}, 
+    {"title": "Github", "url": "https://github.com/mdalzell", "external": true}, 
+    {"title": "Stack Overflow", "url": "https://stackoverflow.com/story/mattdalzell", "external": true}, 
+    {"title": "HackerRank", "url": "https://www.hackerrank.com/mdalzell", "external": true}
+  ]
 }
