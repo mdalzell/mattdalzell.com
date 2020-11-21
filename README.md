@@ -1,6 +1,8 @@
 # mattdalzell.com
 
-My personal site, built using Gatsby and React. Currently includes blog posts in markdown format as well
+[![Netlify Status](https://api.netlify.com/api/v1/badges/137157ac-8776-4182-a31e-198757e82f06/deploy-status)](https://app.netlify.com/sites/clever-benz-363c00/deploys)
+
+My personal site, built using Gatsby and React with a JAMstack philosophy in mind. All content and configuration is managed in markdown and JSON files in this repository.
 
 ## Setup
 
