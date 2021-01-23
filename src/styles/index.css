@@ -475,6 +475,9 @@ footer .nav li:last-child {
 .intro {
   margin: 0 0 1.45rem;
 }
+.italic {
+  font-style: italic;
+}
 .nav {
   background-color: transparent;
   border: solid #f92672;

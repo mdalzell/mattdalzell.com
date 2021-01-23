@@ -4,21 +4,38 @@ import React from 'react'
 import Layout from '../components/layout'
 import Tags from '../components/tags'
 
-const BlogPost = ({ data }: { data: { markdownRemark: { frontmatter: { title: string, date: string, tags: string[] }, html: string } } }): JSX.Element => {
-  const post = data.markdownRemark
-  return (
-    <Layout>
-      <div>
-        <h1>{post.frontmatter.title}</h1>
-        <h3>{post.frontmatter.date}</h3>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <p>~ MAD</p>
-        <Tags values={post.frontmatter.tags} />
-        <Link to="/blog">Return to Blog</Link>
-      </div>
-    </Layout>
-  )
-}
+const BlogPost = ({
+  data: {
+    markdownRemark: {
+      frontmatter: { date, title, tags, updatedOn },
+      html,
+    },
+  },
+}: {
+  data: {
+    markdownRemark: {
+      frontmatter: {
+        title: string
+        date: string
+        tags: string[]
+        updatedOn: string
+      }
+      html: string
+    }
+  }
+}): JSX.Element => (
+  <Layout>
+    <div>
+      <h1>{title}</h1>
+      <h3>{date}</h3>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <p>~ MAD</p>
+      {updatedOn && <p className="italic">Last Updated On: {updatedOn}</p>}
+      <Tags values={tags} />
+      <Link to="/blog">Return to Blog</Link>
+    </div>
+  </Layout>
+)
 
 export const query = graphql`
   query BlogPostQuery($slug: String!) {
@@ -28,6 +45,7 @@ export const query = graphql`
         date(formatString: "DD MMMM, YYYY")
         tags
         title
+        updatedOn(formatString: "DD MMMM, YYYY")
       }
     }
   }
