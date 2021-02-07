@@ -19,5 +19,5 @@ One final route to take is implementing your own LaunchDarkly React components u
 
 In general, I'll probably stick with LaunchDarkly's React SDK for production applications, unless custom client initialization logic or event handling is necessary.  \
 \
-**Update 2/7/2021**\
+*Update 2/7/2021*\
 Recently I started working with LaunchDarkly flags within React apps again, so I decided to revisit this post and reminisce about old times.  In the nearly two years since this post was written, LaunchDarkly has revamped their own React SDK, including support for hooks and simplifying the overall API.  There's also been a host of new supporting libraries including a [Gatsby plugin](https://github.com/launchdarkly/gatsby-plugin-launchdarkly) and a (experimental) [jest testing library](https://github.com/launchdarkly-labs/jest-launchdarkly-mock).  LaunchDarkly's offerings really are a pleasure to use, and I probably wouldn't use any other library at this point.
