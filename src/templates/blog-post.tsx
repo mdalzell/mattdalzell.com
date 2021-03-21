@@ -4,6 +4,13 @@ import React from 'react'
 import Layout from '../components/layout'
 import Tags from '../components/tags'
 
+const formatDate = (dateString: string) =>
+  new Date(dateString).toLocaleString('default', {
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit',
+  })
+
 const BlogPost = ({
   data: {
     markdownRemark: {
@@ -27,10 +34,12 @@ const BlogPost = ({
   <Layout>
     <div>
       <h1>{title}</h1>
-      <h3>{date}</h3>
+      <h3>{formatDate(date)}</h3>
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <p>~ MAD</p>
-      {updatedOn && <p className="italic">Last Updated On: {updatedOn}</p>}
+      {!!updatedOn && (
+        <p className="italic">Last Updated On: {formatDate(updatedOn)}</p>
+      )}
       <Tags values={tags} />
       <Link to="/blog">Return to Blog</Link>
     </div>
@@ -42,10 +51,10 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
-        date(formatString: "DD MMMM, YYYY")
+        date
         tags
         title
-        updatedOn(formatString: "DD MMMM, YYYY")
+        updatedOn
       }
     }
   }
