@@ -4,7 +4,7 @@ date: 2021-03-13T02:13:00.818Z
 updatedOn: ""
 tags:
   - OpenSource
-draft: true
+draft: false
 featured: false
 ---
 The world is built upon open source software, and its development model of free collaboration has birthed some of the most pervasive technologies in use today.  Given the wild success of open source, it only makes sense that private enterprises would try to capture some of that magic with their own software projects.  The result is internal open source, or [inner source](https://en.wikipedia.org/wiki/Inner_source), which is the application of open source principles and practices to closed source code within a company.
