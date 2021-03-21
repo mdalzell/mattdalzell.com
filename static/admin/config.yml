@@ -13,7 +13,13 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: date, label: Date, widget: date }
-      - { name: updatedOn, label: Updated On, widget: date, required: false }
+      - {
+          default: '',
+          name: updatedOn,
+          label: Updated On,
+          widget: datetime,
+          required: false,
+        }
       - { name: tags, label: Tags, widget: list }
       - { name: draft, label: Save As Draft, widget: boolean }
       - { name: featured, label: Featured, widget: boolean }
