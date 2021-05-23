@@ -8,7 +8,7 @@ import Tags from '../components/tags'
 interface IBlogPageProps {
   data: {
     allMarkdownRemark: {
-      group: { fieldValue: string }[],
+      group: { fieldValue: string }[]
       posts: INode[]
     }
   }
@@ -30,6 +30,29 @@ interface INode {
   }
 }
 
+// TODO: See if this grouping can be made in the initial query
+const buildPostsByYear = (posts: INode[]) => {
+  const postsByYear: Record<string, INode[]> = {}
+
+  posts.map(post => {
+    const {
+      node: {
+        frontmatter: { date },
+      },
+    } = post
+
+    const year = new Date(date).getFullYear()
+
+    if (year in postsByYear) {
+      postsByYear[year].push(post)
+    } else {
+      postsByYear[year] = [post]
+    }
+  })
+
+  return postsByYear
+}
+
 const BlogAll = (props: IBlogPageProps): JSX.Element => {
   const {
     data: {
@@ -39,30 +62,44 @@ const BlogAll = (props: IBlogPageProps): JSX.Element => {
   } = props
   const urlParams = new URLSearchParams(search)
   const tag = urlParams.get('tag')
+  const postsByYear = buildPostsByYear(posts)
 
   return (
     <Layout>
-      <h1>Blog</h1>
-      <h3>{tag ? 'Posts featuring "' + tag + '"' : 'All Posts'}</h3>
+      <h1>Blog - {tag ? 'Posts featuring "' + tag + '"' : 'All Posts'}</h1>
       <ul className="no-list-style">
-        {posts.map(
-          ({
-            node: {
-              id,
-              fields: { slug },
-              frontmatter: { tags, title, date },
-            },
-          }: INode) =>
-            (!tag || tags.indexOf(tag) !== -1) && (
-              <li key={id}>
-                <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
-              </li>
+        {Object.keys(postsByYear)
+          .sort((first, second) => (Number(first) < Number(second) ? 1 : -1))
+          .map(year => {
+            const postsInYear = postsByYear[year].filter(
+              post => !tag || post.node.frontmatter.tags.indexOf(tag) !== -1
             )
-        )}
+
+            if (postsInYear.length === 0) {
+              return <></>
+            }
+
+            return (
+              <div key={year}>
+                <h3>{year}</h3>
+                {postsInYear.map(
+                  ({
+                    node: {
+                      id,
+                      fields: { slug },
+                      frontmatter: { title, date },
+                    },
+                  }: INode) => (
+                    <li key={id}>
+                      <Link to={'/blog' + slug}>{title + ' - ' + date}</Link>
+                    </li>
+                  )
+                )}
+              </div>
+            )
+          })}
       </ul>
-      {!tag && (
-        <Tags values={group.map(({ fieldValue }) => fieldValue)} />
-      )}
+      {!tag && <Tags values={group.map(({ fieldValue }) => fieldValue)} />}
       <Link to="/blog">Return to Blog</Link>
     </Layout>
   )
