@@ -1,9 +1,9 @@
 ---
-title: 'PSA: Upgrade to WSL 2'
+title: 'TIL: Upgrade to WSL 2'
 date: 2020-07-23T02:06:47.549Z
 tags:
   - WSL
-  - PSA
+  - TIL
 draft: false
 ---
 A while back [I made it a goal to use Linux](https://mattdalzell.com/blog/2019-new-year-goals/) as the OS for my daily driver, primarily due to concerns over telemetry in Windows 10.  I was able to stick with that through 2019 and the first part of 2020, but the COVID-19 pandemic made it challenging to stick with Linux, as I found myself having to use more unsupported software and hardware.

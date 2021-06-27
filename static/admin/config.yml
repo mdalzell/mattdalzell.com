@@ -22,7 +22,7 @@ collections:
         }
       - { name: tags, label: Tags, widget: list }
       - { name: draft, label: Save As Draft, widget: boolean, required: false }
-      - { name: featured, label: Featured, widget: boolean }
+      - { name: featured, label: Featured, widget: boolean, required: false }
       - { name: body, label: Body, widget: markdown }
   - name: content
     label: Content
