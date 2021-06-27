@@ -1,13 +1,11 @@
 ---
-title: 'GOTCHA: Python Default Parameters'
+title: 'TIL: Python Default Parameters'
 date: 2020-02-01T21:13:19.250Z
 tags:
-  - GOTCHA
+  - TIL
   - Python
 draft: false
 ---
-Programmers often encounter GOTCHAs: minute little intricacies of their language, framework, or environment that can totally derail productivity until they are resolved.  This series aims to document the GOTCHAs I've found as I've encountered them, both as a personal record for my sake and possibly to help out anyone reading this.
-
 I'm a total noob with Python, but I've always been interested in learning more about it, since it seems to be widely used for everything from web applications to statistical analysis to machine learning.  Currently I am teaching myself the basics of Python by using it to solve 2019's [Advent of Code](https://adventofcode.com/2019) challenges.  I plan on doing a full write-up of my experiences when I complete all 25 days of problems (which will probably be around Christmas in July at my current rate), but I wanted to make sure to document a misunderstanding with Python default parameters that had me stumped way longer than it should have.
 
 To solve the AoC problems, I created a simple CLI that takes both the day and the part (one or two) and outputs a result.  I had just wrapped up the 11th day with the correct result, when I noticed that one of my tests for that day was failing, even though I had verified that everything was working only minutes before.  After a bit of debugging, I noticed that the first executed test would pass and the second would fail, regardless of the test itself.
