@@ -15,7 +15,7 @@ interface IAboutData {
 
 const AboutPage = ({ data: { markdownRemark: { html } } }: IAboutData): JSX.Element =>
   <Layout>
-    <h1>About Matt Dalzell</h1>
+    <h1>About Me</h1>
     <img src={bw_profile as string} />
     <div dangerouslySetInnerHTML={{ __html: html }} />
   </Layout >
