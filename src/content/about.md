@@ -13,6 +13,7 @@ Software Engineer II - _(November 2020 - Present)_
 - Applied expertise in React and NodeJS to internal and consumer-facing applications supporting Bread's loan financing platform.
 - Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
 - Lead a working group that built an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help onboard new engineers.
+- Designed and implemented the public facing REST interface for a Go microservice that handles loan payments and autopay enrollment.
 - Pitched a new cross-selling feature to executive leadership and collaborated with them to expand and develop the idea.
 
 ### BMW Technology Corporation
