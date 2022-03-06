@@ -6,7 +6,7 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 
 ## Work History
 
-### Bread - New York, NY
+### Bread
 
 Software Engineer II - _(November 2020 - Present)_
 
@@ -44,7 +44,7 @@ Software Engineer II - _(November 2015 - December 2018)_
 - Leveraged React code used for the web application and the Electron framework to build a fully-featured Windows desktop application.
 - Rewrote the existing C#/.NET data access layer, services, and APIs using the SOLID principles of object oriented programming.
 
-### Azavar Technology Group
+### Azavar Technology
 
 Web Developer - _(June 2013 - November 2015)_
 
@@ -59,3 +59,18 @@ Web Intern - _(May 2012 - June 2013)_
 
 - Aided in maintaining the various websites controlled by the organization.
 - Helped design new pages and improve existing web infrastructure.
+
+## Education
+
+### Georgia Tech
+
+M.S. in Computer Science - _Present_ <br/>
+**Classes:** Introduction to Information Security
+
+### Northwestern University
+
+B.S. in Computer Science - _Class of 2013_
+
+## Media
+
+- [For the win: Devs at 7 Chicago tech companies share their biggest professional wins ](https://www.thecut.com/article/benjamin-mckenzie-crypto-profile.html?utm_source=pocket-newtab): Represented VelocityEHS in a _Built In Chicago_ feature on Chicago tech companies
