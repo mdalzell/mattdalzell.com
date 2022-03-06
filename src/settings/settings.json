@@ -8,8 +8,6 @@
     {"title": "Blog", "url": "/blog", "external": false}, 
     {"title": "Resume", "url": "https://files.mattdalzell.com/resume.pdf", "external": true}, 
     {"title": "Email", "url": "mailto:contact@mattdalzell.com", "external": true}, 
-    {"title": "Github", "url": "https://github.com/mdalzell", "external": true}, 
-    {"title": "Stack Overflow", "url": "https://stackoverflow.com/story/mattdalzell", "external": true}, 
-    {"title": "HackerRank", "url": "https://www.hackerrank.com/mdalzell", "external": true}
+    {"title": "GitHub", "url": "https://github.com/mdalzell", "external": true}
   ]
 }

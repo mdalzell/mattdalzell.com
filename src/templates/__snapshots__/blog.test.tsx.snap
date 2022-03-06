@@ -56,25 +56,7 @@ Array [
             rel="noopener noreferrer"
             target="_blank"
           >
-            Github
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://stackoverflow.com/story/mattdalzell"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Stack Overflow
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.hackerrank.com/mdalzell"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            HackerRank
+            GitHub
           </a>
         </li>
       </ul>
@@ -197,25 +179,7 @@ Array [
           rel="noopener noreferrer"
           target="_blank"
         >
-          Github
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://stackoverflow.com/story/mattdalzell"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Stack Overflow
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.hackerrank.com/mdalzell"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          HackerRank
+          GitHub
         </a>
       </li>
     </ul>
