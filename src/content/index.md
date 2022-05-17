@@ -3,7 +3,7 @@ title: Hi, I'm Matt Dalzell
 skills:
   sections:
     - title: Frontend
-      description: Typescript, JavaScript/ES6+, React, HTML5, CSS
+      description: React, Typescript, JavaScript/ES6+, HTML5, CSS
     - title: Backend
       description: NodeJS, C#, .NET Core, Go, Python
     - title: Desktop & Mobile
