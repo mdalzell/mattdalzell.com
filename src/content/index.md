@@ -2,13 +2,14 @@
 title: Hi, I'm Matt Dalzell
 skills:
   sections:
-    - title: Languages
-      description: Typescript, JavaScript/ES6+, C#, Go, Dart, Python, HTML5, CSS
-    - title: Frameworks & Platforms
-      description: React, NodeJS, .NET Core, Flutter, Electron
+    - title: Frontend
+      description: Typescript, JavaScript/ES6+, React, HTML5, CSS
+    - title: Backend
+      description: NodeJS, C#, .NET Core, Go, Python
+    - title: Desktop & Mobile
+      description: Flutter, Dart, Electron
     - title: Cloud Providers
-      description:
-        AWS (EC2 / S3 / CloudFront / Certificate Manager), Azure (Event
+      description: AWS (EC2 / S3 / CloudFront / Certificate Manager), Azure (Event
         Hubs / Monitor)
     - title: DevOps
       description: Kubernetes, Terraform, Docker, LaunchDarkly, Jenkins
