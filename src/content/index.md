@@ -6,7 +6,7 @@ skills:
       description: React, Typescript, JavaScript/ES6+, HTML5, CSS
     - title: Backend
       description: NodeJS, C#, .NET Core, Go, Python
-    - title: Desktop & Mobile
+    - title: Mobile & Desktop
       description: Flutter, Dart, Electron
     - title: Cloud Providers
       description: AWS (EC2 / S3 / CloudFront / Certificate Manager), Azure (Event
