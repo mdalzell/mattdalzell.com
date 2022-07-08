@@ -10,12 +10,13 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 
 Software Engineer II - *(November 2020 - Present)*
 
-* As an engineer on the Member Experience team, developed a consumer-facing application that allows users to apply for and initiate personal loans.
+* As part of the Member Experience team, developed a consumer-facing
+  application that enables users to easily apply for personal loans.
 * Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
 * Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
 * Lead a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
 * Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
-* Won first place in Bread's "Shark Tank" competition by pitching a feature prototype to senior leadership.
+* Won first place in Bread's "Shark Tank" competition by pitching a feature prototype to senior executive leadership.
 
 ### BMW Technology Corporation
 
