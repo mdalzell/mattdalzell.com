@@ -19,5 +19,4 @@ skills:
       description: git, VS Code, Postman, JIRA
   title: Technical Skills
 ---
-
-I am a software engineer with eight years of professional experience in full stack web application and mobile development. Over the course of my career, I've worked on everything from single page applications to distributed microservices for businesses across a variety of industries. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
+I am a software engineer with nearly a decade of professional experience in full stack web application and mobile development. Over the course of my career, I've worked on everything from single page applications to distributed microservices for businesses across a variety of industries. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
