@@ -10,7 +10,7 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 
 Software Engineer II - *(November 2020 - Present)*
 
-* As part of the Member Experience team, developed a consumer-facing
+* As part of the Member Experience team, developed a consumer-facing React
   application that enables users to easily apply for personal loans.
 * Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
 * Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
