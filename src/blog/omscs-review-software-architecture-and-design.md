@@ -1,7 +1,7 @@
 ---
 title: "OMSCS Review: Software Architecture and Design"
 date: 2022-08-21T02:00:09.736Z
-updatedOn: ""
+updatedOn: 2022-08-21T05:00:00.000Z
 tags:
   - OMSCS
   - Architecture
@@ -17,6 +17,6 @@ For me, the highlight of this class was working with my teammates, who were all 
 
 In my opinion, this class did have a couple of glaring weaknesses. First, the lecture videos seemed out of date relative to the current structure of the course. My understanding is that the videos were recorded years ago by a professor who no longer teaches the class. While there is still value in many of the videos, I think at least a partial refresher with some new or updated content would drastically improve the course.
 
-I think the biggest issue is that the assignments did not scale well due to the ambiguous, bespoke nature of software architecture. Turnaround time for assignment grades was woefully slow, but this is understandable since evaluating these assignments was probably more akin to grading papers compared to the automated assessments in other courses. Since there are hundreds of students in the class at a time, this is no small feat from the TAs. I'm not really sure what the solution would be here - reigning in the assignments would probably help automate grading but would remove one of the most important implicit lessons: how to deal with uncertainty in requirements and a seemingly limitless number of options to consider.\
+I think the biggest issue is that the assignments did not scale well due to the subjective nature of software architecture. Turnaround time for assignment grades was woefully slow, but this is understandable since evaluating these assignments was probably more akin to grading papers compared to the automated assessments in other courses. Since there are hundreds of students in the class at a time, this is no small feat from the TAs. I'm not really sure what the solution would be here - reigning in the assignments would probably help automate grading but would remove one of the most important implicit lessons: how to deal with uncertainty in requirements and a seemingly limitless number of options to consider.\
 \
 Overall, this course was engaging due to the group work, even though I didn't really have to learn many new concepts. I do wonder if I will regret taking this course down the road, and if I should have challenged myself more by pursuing a topic that I have less experience in. For now, I am just glad to have successfully completed my second foundational course and my first summer semester.
