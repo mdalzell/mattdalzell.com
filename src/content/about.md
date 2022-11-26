@@ -8,11 +8,12 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 
 ### Bread Financial
 
-Software Engineer II - *(November 2020 - Present)*
+S﻿enior Software Engineer - *(October 2022 - Present)* \
+Software Engineer II - *(November 2020 - October 2022)*
 
-* As part of the Member Experience team, developed a consumer-facing React
-  application that enables users to easily apply for personal loans.
+* As a senior software engineer on the Member Experience team, lead development of a consumer-facing React application responsible for nine figures of annual loan originations.
 * Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
+* Implemented RBAC into React applications via Okta integration.
 * Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
 * Lead a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
 * Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
@@ -68,7 +69,10 @@ Web Intern - *(May 2012 - June 2013)*
 ### Georgia Tech
 
 M.S. in Computer Science - *Present* <br/>
-**Classes:** Introduction to Information Security
+**Classes:** 
+* CS 6305: Introduction to Information Security
+* CS 6310: Software Architecture and Design
+* CS 6750: Human-Computer Interaction
 
 ### Northwestern University
 
