@@ -2,6 +2,9 @@
 title: "OMSCS: Human-Computer Interaction"
 date: 2023-01-09T01:56:41.377Z
 updatedOn: ""
+tags:
+  - OMSCS
+  - Frontend
 draft: false
 ---
 
