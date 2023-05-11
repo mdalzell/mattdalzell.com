@@ -1,5 +1,5 @@
 ---
-title: "OMSCS: Human-Computer Interaction"
+title: "OMSCS Review: Human-Computer Interaction"
 date: 2023-01-09T01:56:41.377Z
 updatedOn: ""
 tags:
