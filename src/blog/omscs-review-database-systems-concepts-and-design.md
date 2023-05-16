@@ -5,7 +5,7 @@ updatedOn: ""
 tags:
   - OMSCS
   - Database
-draft: true
+draft: false
 ---
 As an undergraduate student, I avoided Northwestern's database course because I found anything involving data (or worse, math) to be intimidating. So I chose classes that were more aligned with my interests at the time, like game development or computer graphics. It all worked out in the end, but I always regretted not taking some of the more "traditional" computer science courses. Part of the reason I enrolled in Georgia Tech's OMSCS program was to fill in some of these gaps from my undergrad experience with courses like CS 6400: Database Systems Concepts and Design.
 
