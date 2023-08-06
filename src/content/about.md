@@ -73,8 +73,10 @@ Web Intern - *(May 2012 - June 2013)*
 M.S. in Computer Science - *Present* <br/>
 **Classes:** 
 
-* CS 6305: Introduction to Information Security
+* CS 6035: Introduction to Information Security
+* CS 6250: Computer Networks
 * CS 6310: Software Architecture and Design
+* CS 6400: Database Systems Concepts and Design
 * CS 6750: Human-Computer Interaction
 
 ### Northwestern University
