@@ -13,12 +13,12 @@ Software Engineer II - *(November 2020 - October 2022)*
 
 * As a senior software engineer on the Member Experience team, lead development of a consumer-facing React application responsible for nine figures of annual loan originations.
 * Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
-* Implemented scope-based access control using Okta's React SDK.
+* Implemented scope-based access control using Okta's React SDK in order to give specific authorized individuals the ability to take restricted actions upon loans.
 * Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
 * Lead a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
 * Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
-* Wrote a coding prompt that is used for frontend and mobile engineer interviews across the organization.
-* Audited Flutter code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
+* Lead a cross-team effort to improve Bread's engineer interview experience by creating new questions to assess a candidate's frontend coding and system design ability in a fair and unbiased manner.
+* Audited mobile application code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
 * Won first place in Bread's "Shark Tank" competition by pitching a feature prototype to senior executive leadership.
 
 ### BMW Technology Corporation
@@ -78,10 +78,18 @@ M.S. in Computer Science - *Present* <br/>
 * CS 6310: Software Architecture and Design
 * CS 6400: Database Systems Concepts and Design
 * CS 6750: Human-Computer Interaction
+* CS 7637: Knowledge-Based AI - Cognitive Systems
 
 ### Northwestern University
 
 B.S. in Computer Science - *Class of 2013*
+
+## Community Service
+### Board Member
+Project Onward (2022 - Present)
+
+### Eagle Scout
+Boy Scouts of America (2009)
 
 ## Media
 
