@@ -85,12 +85,15 @@ M.S. in Computer Science - *Present* <br/>
 B.S. in Computer Science - *Class of 2013*
 
 ## Community Service
+
 ### Board Member
+
 Project Onward (2022 - Present)
 
 ### Eagle Scout
+
 Boy Scouts of America (2009)
 
 ## Media
 
-* [For the win: Devs at 7 Chicago tech companies share their biggest professional wins ](https://www.thecut.com/article/benjamin-mckenzie-crypto-profile.html?utm_source=pocket-newtab): Represented VelocityEHS in a *Built In Chicago* feature on Chicago tech companies
+* [For the win: Devs at 7 Chicago tech companies share their biggest professional wins ](https://www.builtinchicago.org/2018/08/08/developers-share-their-biggest-wins): Represented VelocityEHS in a *Built In Chicago* feature on Chicago tech companies
