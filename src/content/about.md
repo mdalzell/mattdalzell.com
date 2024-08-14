@@ -1,8 +1,8 @@
-I was born and raised in the Chicago area, growing up on a steady diet of polish sausage and lousy Bears quarterbacks. Since graduating with a degree in computer science from Northwestern University, I have been pursuing a career in software development. I'm currently part of the Member Experience team at Bread Financial, where I work on the React apps supporting their buy now, pay later platform.
+I was born and raised in the Chicago area, growing up on a steady diet of polish sausage and lousy Bears quarterbacks. Since graduating with a degree in computer science from Northwestern University, I have been pursuing a career in software development. I'm currently part of the Member Experience team at Bread Financial, where I work on the React apps supporting their financing platform.
 
-I consider myself a generalist full stack engineer that is comfortable working with frontend client code, backend systems, and any other part of the tech stack. One of my favorite aspects of software engineering is that there is always more to learn, and I enjoy picking up new languages and frameworks for work or even just for fun. I am always striving to improve at my craft, and pride myself in the quality, thoroughness, and maintainability of the code that I write. I work best in a highly collaborative team environment, where I can be both an individual contributor and a mentor/force-multiplier for the other team members.
+I consider myself a generalist full stack engineer that is comfortable working with frontend client code, backend systems, and any other part of the tech stack. One of my favorite aspects of software engineering is that there is always more to learn. I am always striving to improve at my craft and I pride myself in the quality, thoroughness, and maintainability of the code that I write. I work best in a highly collaborative team environment, where I can be both an individual contributor and a mentor/force-multiplier for the other team members.
 
-Outside of programming, I enjoy jamming on my guitar, playing tabletop games with friends, and following White Sox baseball. I live with my wife in the southside Chicago neighborhood of Bridgeport, where we spend our time playing with our dog [Biscuit](https://www.instagram.com/kingbiscuitthecorgi/) and volunteering at local nonprofits like [Project Onward](https://www.projectonward.org/).
+Outside of programming, I enjoy jamming on my guitar, playing tabletop games with friends, and following White Sox baseball. I live in the south side Chicago neighborhood of Bridgeport along with my wife and our dog [Biscuit](https://www.instagram.com/kingbiscuitthecorgi/).
 
 ## Work History
 
@@ -70,7 +70,8 @@ Web Intern - *(May 2012 - June 2013)*
 
 ### Georgia Tech
 
-M.S. in Computer Science - *Present* <br/>
+M.S. in Computer Science - *Present*\
+
 **Classes:** 
 
 * CS 6035: Introduction to Information Security
@@ -85,10 +86,6 @@ M.S. in Computer Science - *Present* <br/>
 B.S. in Computer Science - *Class of 2013*
 
 ## Community Service
-
-### Board Member
-
-Project Onward (2022 - Present)
 
 ### Eagle Scout
 
