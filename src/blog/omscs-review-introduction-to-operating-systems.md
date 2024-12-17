@@ -1,13 +1,20 @@
 ---
 title: "OMSCS Review: Introduction to Operating Systems"
-date: 2024-12-14T23:32:16.292Z
+date: 2024-12-16T23:32:16.292Z
 updatedOn: ""
 tags:
   - OMSCS
 draft: true
 ---
-On Reddit, OMSCentral, or any other forum of Georgia Tech students, one course that almost always has glowing reviews is [CS 6200: Introduction to Operating Systems](https://omscs.gatech.edu/cs-6200-introduction-operating-systems). Although the name may suggest that the course is introductory, it is well known by students to feature challenging projects that serve as a litmus test of whether one can succeed in the OMSCS program. After taking this class in Spring of 2024, I have to completely agree with the past reviews; this is possibly my favorite course that I've taken thus far for my master's degree.
+[CS 6200: Introduction to Operating Systems](https://omscs.gatech.edu/cs-6200-introduction-operating-systems) (typically referred to as GIOS) is one of the most frequently recommended and highly rated courses on Reddit, OMSCentral, or any other forum of Georgia Tech students. Although the name may suggest that the course is introductory, it is well known to feature challenging projects that serve as a litmus test of whether one can succeed in the OMSCS program. After taking this class in Spring of 2024, I have to completely agree with the past reviews; this is possibly my favorite course that I've taken thus far for my master's degree.
 
-As the name suggests, the lectures in this course provide an introduction into some of the basic functions of operating systems, such as threads, scheduling, and virtualization. My understanding is that this course was added to get graduate students "up to speed" if they didn't cover this material in their undergrad degree, which can make the lessons feel a bit dense. I had encountered most of these concepts in the past, however it was so long ago that the lessons acted as a helpful refresher. 
+As the name suggests, the lectures in this course provide an introduction into some of the basic functions of operating systems, such as threads, scheduling, and virtualization. My understanding is that this course was added to get graduate students "up to speed" if they didn't cover this material in their undergrad degree, which can make the lessons feel a bit dense. Even though I was somewhat familiar with many of the concepts, I still felt as though I learned quite a bit every week.
 
-The lectures and accompanying research papers form the basis of the two exams, which together make up 50% of the total grade. Due to the nature of the material, the questions created a situation where "you either know it or you don't," with no real likelihood of deriving the answer on the spot. Both of these exams were fairly challenging, and I received an 82% and 73% on the midterm and final respectively. This was about in line with the median score in both cases. 
+The lectures and accompanying research papers form the basis of the two exams, which together make up 50% of the total grade. Due to the nature of the material, the questions created a situation where "you either know it or you don't," with no real likelihood of deriving the answer on the spot. Both of these exams were fairly challenging, but overall the question makeup of the exams felt fair. I received an 82% and 73% on the midterm and final respectively, roughly in line with the median in both cases.
+
+The true highlights of GIOS were the three projects, which were among the best I have ever encountered in my academic career. At a high level, the three projects covered:
+* Writing a multi-threaded client/server application using sockets
+* Using inter-process communication (IPC) and shared memory to develop a proxy server and a cache server
+* Building a distributed file system (DFS) using gRPC
+
+It is rare for class projects to accurately recreate the feeling of actual software engineering, but the effort and thought the GIOS projects required truly inspired and challenged me. I typically started the projects the first day that they came out, yet was still unsure if I could complete all parts even with weeks left until the deadline. However, little by little, I made progress every day until the entire system came together. I received nearly full marks on each project, after dozens of hours of programming (and a little bit of a hair pulling).
