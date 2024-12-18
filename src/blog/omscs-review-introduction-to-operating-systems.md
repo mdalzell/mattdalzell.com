@@ -4,7 +4,7 @@ date: 2024-12-17T23:32:16.292Z
 updatedOn: ""
 tags:
   - OMSCS
-draft: true
+draft: false
 ---
 [CS 6200: Introduction to Operating Systems](https://omscs.gatech.edu/cs-6200-introduction-operating-systems) (typically referred to as GIOS) is one of the most frequently recommended and highly rated courses on Reddit, OMSCentral, and other Georgia Tech student forums. Although the name may suggest that the course is introductory, it is well known to feature challenging projects that serve as a litmus test of whether one can succeed in the OMSCS program. After taking this class in Spring of 2024, I have to completely agree with the past reviews; this is possibly my favorite course that I've taken thus far for my master's degree.
 
@@ -17,7 +17,7 @@ The true highlights of GIOS were the three projects, which were among the best I
 * Using inter-process communication (IPC) and shared memory to develop a proxy server and a cache server
 * Building a distributed file system (DFS) using gRPC
 
-It is rare for class projects to accurately recreate the feeling of professional software engineering, but the GIOS projects required a similar amount of patience, planning, and problem solving to my professional work. I typically started the projects the first day they were posted, yet was still unsure if I could complete all parts even with weeks left until the deadline. However, little by little, I made progress every day until the entire system came together. I received nearly full marks on each project, after dozens of hours of programming (and a little bit of a hair pulling).
+It is rare for classwork to accurately recreate the feeling of professional software engineering, but the GIOS projects required patience, planning, and problem solving comparable to my professional work. The requirements were often daunting, making me wonder if I was even capable of completing them in the time given. However, little by little, I made progress every day until the entire system came together. I received nearly full marks on each project, after dozens of hours of programming (and a little bit of hair pulling).
 
 Beyond the projects, the community fostered by the teaching staff and students in this class was wonderful and highly conducive to learning. The professor was actively involved in office hours (which unfortunately is fairly rare in OMSCS) and heavily invested in the students' success. The slack channel for the class was an invaluable resource for completing the projects, or even just venting in solidarity with fellow students struggling with these challenging assignments.
 
