@@ -12,7 +12,7 @@ As the name suggests, the lectures in this course provide an introduction into s
 
 The lectures and accompanying research papers form the basis of the two exams, which together make up 50% of the total grade. Due to the nature of the material, the questions created a situation where "you either know it or you don't," with no real likelihood of deriving the answer on the spot. Both of these exams were fairly challenging, but overall the question makeup of the exams felt fair. I received an 82% and 73% on the midterm and final respectively, roughly in line with the median in both cases.
 
-The true highlights of GIOS were the three projects, which were among the best I have ever encountered in my academic career. At a high level, the three projects covered:
+The true highlights of GIOS were the three projects, which were among the best I have ever encountered in my academic career. The projects were written in C or C++ and required building upon boilerplate code to implement design specifications. At a high level, the three projects covered:
 * Writing a multi-threaded client/server application using sockets
 * Using inter-process communication (IPC) and shared memory to develop a proxy server and a cache server
 * Building a distributed file system (DFS) using gRPC
@@ -21,4 +21,4 @@ It is rare for class projects to accurately recreate the feeling of professional
 
 Beyond the projects, the community fostered by the teaching staff and students in this class was wonderful and highly conducive to learning. The professor was actively involved in office hours (which unfortunately is fairly rare in OMSCS) and heavily invested in the students' success. The slack channel for the class was an invaluable resource for completing the projects, or even just venting in solidarity with fellow students struggling with these challenging assignments.
 
-Overall, I would say that GIOS definitely lives up to the hype and would highly recommend the class to other students, particularly those in the Computing Systems specialization.
+After taking the course, I have to say that GIOS definitely lives up to the hype. I would recommend this class to any OMSCS student, particularly those in the Computing Systems specialization.
