@@ -79,8 +79,8 @@ M.S. in Computer Science - *Class of 2025*
 * CS 6250: Computer Networks
 * CS 6310: Software Architecture and Design
 * CS 6400: Database Systems Concepts and Design
-* CS 6603: AI, Ethics, and Society
 * CS 6515: Introduction to Graduate Algorithms
+* CS 6603: AI, Ethics, and Society
 * CS 6750: Human-Computer Interaction
 * CS 7637: Knowledge-Based AI - Cognitive Systems
 * CS 8803 O15: Introduction to Computer Law
