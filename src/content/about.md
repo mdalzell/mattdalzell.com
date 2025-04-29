@@ -2,7 +2,7 @@ I was born and raised in the Chicago area, growing up on a steady diet of polish
 
 I consider myself a generalist full stack engineer that is comfortable working with frontend client code, backend systems, and any other part of the tech stack. One of my favorite aspects of software engineering is that there is always more to learn. I am always striving to improve at my craft and I pride myself in the quality, thoroughness, and maintainability of the code that I write. I work best in a highly collaborative team environment, where I can be both an individual contributor and a mentor/force-multiplier for the other team members.
 
-Outside of programming, I enjoy jamming on my guitar, playing tabletop games with friends, and following White Sox baseball. I live in the south side Chicago neighborhood of Bridgeport along with my wife and our dog [Biscuit](https://www.instagram.com/kingbiscuitthecorgi/).
+Outside of programming, I enjoy jamming on my guitar, playing tabletop games with friends, and following White Sox baseball. I live in the historic south side Chicago neighborhood of Beverly along with my wife and our dog [Biscuit](https://www.instagram.com/kingbiscuitthecorgi/).
 
 ## Work History
 
@@ -70,16 +70,20 @@ Web Intern - *(May 2012 - June 2013)*
 
 ### Georgia Tech
 
-M.S. in Computer Science - *Present*\
+M.S. in Computer Science - *Class of 2025*
 
 **Classes:** 
 
 * CS 6035: Introduction to Information Security
+* CS 6200: Introduction to Operating Systems
 * CS 6250: Computer Networks
 * CS 6310: Software Architecture and Design
 * CS 6400: Database Systems Concepts and Design
+* CS 6603: AI, Ethics, and Society
+* CS 6515: Introduction to Graduate Algorithms
 * CS 6750: Human-Computer Interaction
 * CS 7637: Knowledge-Based AI - Cognitive Systems
+* CS 8803 O15: Introduction to Computer Law
 
 ### Northwestern University
 
