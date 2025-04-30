@@ -11,14 +11,16 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 S﻿enior Software Engineer - *(October 2022 - Present)* \
 Software Engineer II - *(November 2020 - October 2022)*
 
-* As a senior software engineer on the Member Experience team, lead development of a consumer-facing React application responsible for nine figures of annual loan originations.
 * Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
-* Implemented scope-based access control using Okta's React SDK in order to give specific authorized individuals the ability to take restricted actions upon loans.
-* Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
-* Lead a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
-* Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
-* Lead a cross-team effort to improve Bread's engineer interview experience by creating new questions to assess a candidate's frontend coding and system design ability in a fair and unbiased manner.
+* Lead React application development for a new direct-to-consumer lending product.
+* Implemented a role-based access control (RBAC) system using Okta, feature flags, and tenant-based configuration.
 * Audited mobile application code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
+* Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
+* Established a cross-team frontend guild to share knowledge among engineers across the organization.
+* Coordinated an effort to improve Bread's engineer interview experience by creating new questions to assess a candidate's frontend coding and system design ability in a fair and unbiased manner.
+* Worked with enterprise architects to develop a set of recommended patterns, frameworks, and tools for frontend development.
+* Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
+* Headed a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
 * Won first place in Bread's "Shark Tank" competition by pitching a feature prototype to senior executive leadership.
 
 ### BMW Technology Corporation
@@ -26,7 +28,7 @@ Software Engineer II - *(November 2020 - October 2022)*
 Software Engineer (Contractor) - *(July 2019 - Oct 2020)*
 
 * Improved the reliability of REST APIs via proactive monitoring, contributing to a 112% increase in mobile app appointment bookings at BMW and MINI dealerships worldwide.
-* Built C#/.NET Core microservices to facilitate dealership payment events using Azure Event Hubs for Kafka.
+* Built C#/.NET Core microservices as part of a distributed system to facilitate dealership payments using Azure Event Hubs for Kafka.
 * Created a NestJS/NodeJS composite service as a backend for frontend (BFF) for the My BMW mobile application, orchestrating multiple microservices into a single appointment booking API for the client.
 * Implemented a reusable Flutter widget that supports multiple types of dealership appointment scheduling in the My BMW app.
 * Constructed Jenkins CI/CD pipelines using custom Docker images and Azure infrastructure managed by Terraform.
