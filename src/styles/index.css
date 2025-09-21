@@ -451,6 +451,9 @@ footer {
   text-align: center;
   width: 100%;
 }
+footer div {
+  margin: 10px;
+}
 footer .nav {
   border: none;
   margin: 10px 0 0 0;
@@ -461,6 +464,7 @@ footer .nav {
 footer .nav li {
   border-right: solid #f92672 1px;
   display: inline-block;
+  margin: 0;
   padding: 0 15px;
 }
 footer .nav li:last-child {

@@ -44,6 +44,7 @@ const Layout = ({ children }: IProps): JSX.Element => {
 const Footer = ({ navItems }: { navItems: NavItem[] }) => (
   <footer>
     <NavMenu navItems={navItems} />
+    <div>{`Made with <3 by a human`}</div>
     <div>&copy; {DateUtil.getCurrentYear()} Matt Dalzell</div>
   </footer>
 )
