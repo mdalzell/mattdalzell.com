@@ -7,18 +7,20 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 ## Work History
 
 ### Bread Financial
+Staff Software Engineer - *(June 2025 - Present)*
+* Acted as a temporary engineering manager for a frontend team of 7 engineers for a period of 4 months.
 
-S﻿enior Software Engineer - *(October 2022 - Present)* \
-Software Engineer II - *(November 2020 - October 2022)*
-
-* Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
-* Lead React application development for a new direct-to-consumer lending product.
+S﻿enior Software Engineer - *(October 2022 - June 2025)*
+* Lead React application development for a new B2C lending product by defining the system's architecture, collaborating with the product team to write JIRA tickets, and guiding implementation by other engineers.
 * Implemented a role-based access control (RBAC) system using Okta, feature flags, and tenant-based configuration.
 * Audited mobile application code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
-* Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
 * Established a cross-team frontend guild to share knowledge among engineers across the organization.
 * Coordinated an effort to improve Bread's engineer interview experience by creating new questions to assess a candidate's frontend coding and system design ability in a fair and unbiased manner.
 * Worked with enterprise architects to develop a set of recommended patterns, frameworks, and tools for frontend development.
+
+Software Engineer II - *(November 2020 - October 2022)*
+* Collaborated with internal stakeholders in product, design, and customer service to extend the functionality of a loan servicing application within Bread's financing platform.
+* Designed and implemented the public REST API interface for a Go microservice that handles loan payments and autopay enrollment.
 * Automated deployment of React applications by writing a python script to configure LaunchDarkly feature flags via REST API requests.
 * Headed a working group that created an online training course covering Bread's frontend tech stack, architecture, and infrastructure in order to help better onboard new engineers.
 * Won first place in Bread's "Shark Tank" competition by pitching a feature prototype to senior executive leadership.
