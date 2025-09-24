@@ -11,7 +11,7 @@ Staff Software Engineer - *(June 2025 - Present)*
 * Acted as a temporary engineering manager for a frontend team of 7 engineers for a period of 4 months.
 
 S﻿enior Software Engineer - *(October 2022 - June 2025)*
-* Lead React application development for a B2C lending product by defining the system's architecture, collaborating with the product team to write JIRA tickets, and guiding development by other engineers.
+* Lead React application development for a B2C lending product by defining the system's architecture, collaborating with the product team to write JIRA tickets, and guiding execution by other engineers.
 * Implemented a role-based access control (RBAC) system using Okta, feature flags, and tenant-based configuration.
 * Audited mobile application code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
 * Established a cross-team frontend guild to share knowledge among engineers across the organization.
