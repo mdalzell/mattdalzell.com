@@ -1,4 +1,4 @@
-These blog posts are my own ill-conceived musings as a software engineer and do not represent the views of any employer or client, past or present.
+This blog contains my own ill-conceived musings as a software engineer and do not represent the views of any employer or client, past or present.
 
 All content here is written strictly by myself without the assistance of AI tooling.
 
