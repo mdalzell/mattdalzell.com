@@ -5,7 +5,7 @@ skills:
     - title: Frontend
       description: React, Typescript, Next.js, JavaScript/ES6+, HTML5, CSS
     - title: Backend
-      description: NodeJS, C#, .NET Core, Go, Python
+      description: Node.js, C#, .NET Core, Go, Python
     - title: Mobile & Desktop
       description: Flutter, Dart, Electron
     - title: Cloud Providers
