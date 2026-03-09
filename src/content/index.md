@@ -9,14 +9,14 @@ skills:
     - title: Mobile & Desktop
       description: Flutter, Dart, Electron
     - title: Cloud Providers
-      description: AWS (EC2 / S3 / CloudFront / Certificate Manager), Azure (Event
-        Hubs / Monitor)
+      description: AWS (ECS / EC2 / S3 / CloudFront / Certificate Manager), Azure
+        (Event Hubs / Monitor)
     - title: DevOps
       description: Kubernetes, Terraform, Docker, LaunchDarkly, Jenkins
     - title: Testing
-      description: Cypress, Jest, MSTest
+      description: Cypress, Vitest, Jest, MSTest
     - title: Tools
-      description: git, VS Code, Postman, JIRA
+      description: git, VS Code, Microsoft Copilot, Postman, JIRA, Slack
   title: Technical Skills
 ---
 I am a software engineer with over a decade of professional experience in full stack web application and mobile development. Over the course of my career, I've worked on everything from single page applications to distributed microservices for businesses across a variety of industries. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
