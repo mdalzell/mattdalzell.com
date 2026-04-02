@@ -59,6 +59,15 @@ Array [
             GitHub
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/matt-dalzell/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </li>
       </ul>
     </div>
     <div>
@@ -180,6 +189,15 @@ Array [
           target="_blank"
         >
           GitHub
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/matt-dalzell/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          LinkedIn
         </a>
       </li>
     </ul>
