@@ -1,5 +1,5 @@
 const React = require('react')
-const gatsby = jest.requireActual('gatsby')
+const gatsby = jest.genMockFromModule('gatsby')
 
 module.exports = {
   ...gatsby,
