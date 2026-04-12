@@ -1,5 +1,6 @@
 backend:
   name: github
+  branch: main
   repo: mdalzell/mattdalzell.com
 
 media_folder: static/assets
