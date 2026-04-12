@@ -19,4 +19,4 @@ skills:
       description: git, VS Code, Microsoft Copilot, Postman, JIRA, Slack
   title: Technical Skills
 ---
-I am a software engineer with over a decade of professional experience in full stack web application and mobile development. Over the course of my career, I've worked on everything from single page applications to distributed microservices for businesses across a variety of industries. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
+I am a software engineer with over a decade of professional experience in full stack application development. As a high agency individual contributor, I am comfortable diving into any part of a system, whether it's a web application, microservice API, or cloud infrastructure. As a technical lead, I strive to be a force multiplier for other engineers and empower the team. What I love about my profession is that every day is an opportunity to learn something new, build something cool, and have fun doing it.
