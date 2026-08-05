@@ -8,11 +8,13 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 
 ### Bread Financial
 Staff Software Engineer - *(June 2025 - Present)*
-* Coordinated frontend strategy for a greenfield B2B web application, working closely with product stakeholders, enterprise architects, and cybersecurity engineers to design a scalable and secure portal.
+* Lead B2B frontend development for two teams across multiple timezones.
+* Established the architecture for a greenfield Next.js web application, including development patterns, tooling, and cloud infrastructure.
+* Developed a new web app authentication and authorization flow by leveraging a OAuth 2.0 Token Exchange (RFC 8693) with Okta and OpenFGA permissioning.
 * Served as an interim engineering manager for a frontend team of 7 engineers for a period of 3 months.
 
 S﻿enior Software Engineer - *(October 2022 - June 2025)*
-* Lead React application development for a B2C lending product by defining the system's architecture, collaborating with the product team to write JIRA tickets, and guiding other engineers.
+* Guided React application development for a B2C lending product by defining the system's architecture, collaborating with the product team to write jira tickets, and mentoring other engineers.
 * Implemented a role-based access control (RBAC) system using Okta, feature flags, and tenant-based configuration.
 * Audited mobile application code written by a third party contracting company and consolidated the findings into a presentation for the senior leadership team.
 * Established a cross-team frontend guild to share knowledge among engineers across the organization.
