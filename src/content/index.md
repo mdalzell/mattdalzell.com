@@ -9,8 +9,8 @@ skills:
     - title: Mobile & Desktop
       description: Flutter, Dart, Electron
     - title: Cloud Providers
-      description: AWS (ECS / EC2 / S3 / CloudFront / Certificate Manager), Azure
-        (Event Hubs / Monitor)
+      description: AWS (ECS / EC2 / S3 / ELB / Fargate / CloudFront / CloudWatch),
+        Azure (Event Hubs / Monitor)
     - title: DevOps
       description: Kubernetes, Terraform, Docker, LaunchDarkly, Jenkins
     - title: Testing
