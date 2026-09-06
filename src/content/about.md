@@ -9,7 +9,8 @@ Outside of programming, I enjoy jamming on my guitar, playing tabletop games wit
 ### Bread Financial
 Staff Software Engineer - *(June 2025 - Present)*
 * Lead B2B frontend development for two teams across multiple timezones.
-* Established the architecture for a greenfield Next.js web application, including development patterns, tooling, and cloud infrastructure.
+* Established the architecture for a greenfield Next.js web application, including project structure, development patterns, and tooling.
+* Collaborated with enterprise architects to define a cloud infrastructure blueprint for frontend applications using AWS services such as ECS with Fargate, API Gateway, and ELB.
 * Developed a new web app authentication and authorization flow by leveraging a OAuth 2.0 Token Exchange (RFC 8693) with Okta and OpenFGA permissioning.
 * Served as an interim engineering manager for a frontend team of 7 engineers for a period of 3 months.
 
